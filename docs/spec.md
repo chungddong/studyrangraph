@@ -121,6 +121,9 @@
   - `findings.json`
   - `report.md`
 
+관련 문서
+- 원본 가상 로그 입력 포맷(JSONL): [docs/raw-log-format.md](docs/raw-log-format.md)
+
 ## 10) 결정해야 할 사항(다음 단계)
 - 로그 저장 포맷: **JSONL 권장**(스트리밍/배치 모두 유리)
 - 스키마/검증: **Pydantic vs dataclass** 선택
