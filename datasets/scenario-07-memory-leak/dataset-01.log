@@ -1,0 +1,61 @@
+[2026-01-05 08:00:00] INFO Server is running on port 3333
+[2026-01-05 08:00:01] INFO Database connected successfully
+[2026-01-05 08:00:05] INFO Server memory usage: 256MB
+[2026-01-05 08:00:08] INFO GET /api/posts 200 - 45ms
+[2026-01-05 08:00:10] INFO POST /login 200 - 119ms
+[2026-01-05 08:00:12] INFO GET /api/profile 200 - 34ms
+[2026-01-05 08:30:00] INFO Server memory usage: 298MB
+[2026-01-05 08:30:05] INFO GET /api/posts 200 - 52ms
+[2026-01-05 08:30:08] INFO POST /api/comments 201 - 91ms
+[2026-01-05 08:30:10] INFO GET /api/notifications 200 - 41ms
+[2026-01-05 09:00:00] INFO Server memory usage: 384MB
+[2026-01-05 09:00:05] INFO GET /api/posts 200 - 67ms
+[2026-01-05 09:00:08] INFO POST /login 200 - 128ms
+[2026-01-05 09:00:10] INFO GET /api/chat/rooms 200 - 54ms
+[2026-01-05 09:30:00] INFO Server memory usage: 445MB
+[2026-01-05 09:30:05] INFO GET /api/posts 200 - 78ms
+[2026-01-05 09:30:08] INFO PUT /api/posts/15 200 - 112ms
+[2026-01-05 09:30:10] INFO GET /api/profile/stats 200 - 68ms
+[2026-01-05 10:00:00] INFO Server memory usage: 512MB
+[2026-01-05 10:00:05] INFO GET /api/posts 200 - 89ms
+[2026-01-05 10:00:08] INFO POST /api/posts 201 - 167ms
+[2026-01-05 10:00:10] INFO GET /api/notifications 200 - 52ms
+[2026-01-05 10:30:00] INFO Server memory usage: 634MB
+[2026-01-05 10:30:05] WARN Memory usage increasing: 634MB
+[2026-01-05 10:30:08] INFO GET /api/posts 200 - 104ms
+[2026-01-05 10:30:10] INFO POST /api/comments 201 - 123ms
+[2026-01-05 11:00:00] INFO Server memory usage: 768MB
+[2026-01-05 11:00:00] WARN High memory usage detected: 768MB (threshold: 512MB)
+[2026-01-05 11:00:05] INFO GET /api/posts 200 - 134ms
+[2026-01-05 11:00:08] WARN Slow query detected: POST /api/posts - 189ms
+[2026-01-05 11:00:08] INFO POST /api/posts 201 - 189ms
+[2026-01-05 11:00:10] INFO GET /api/chat/rooms 200 - 71ms
+[2026-01-05 11:30:00] INFO Server memory usage: 891MB
+[2026-01-05 11:30:00] ERROR High memory usage: 891MB approaching critical threshold
+[2026-01-05 11:30:05] INFO GET /api/posts 200 - 156ms
+[2026-01-05 11:30:08] WARN Slow query detected: GET /api/posts - 156ms
+[2026-01-05 11:30:10] INFO GET /api/notifications 200 - 78ms
+[2026-01-05 12:00:00] INFO Server memory usage: 1024MB
+[2026-01-05 12:00:00] ERROR Server memory usage: 1024MB (critical threshold: 1024MB)
+[2026-01-05 12:00:05] WARN Slow query detected: GET /api/posts - 223ms
+[2026-01-05 12:00:05] INFO GET /api/posts 200 - 223ms
+[2026-01-05 12:00:08] WARN Slow query detected: POST /api/comments - 245ms
+[2026-01-05 12:00:08] INFO POST /api/comments 201 - 245ms
+[2026-01-05 12:00:10] INFO GET /api/profile 200 - 98ms
+[2026-01-05 12:30:00] INFO Server memory usage: 1180MB
+[2026-01-05 12:30:00] ERROR Memory leak suspected - continuous memory growth detected
+[2026-01-05 12:30:05] WARN Slow query detected: GET /api/posts - 289ms
+[2026-01-05 12:30:05] INFO GET /api/posts 200 - 289ms
+[2026-01-05 12:30:08] WARN Slow query detected: GET /api/chat/rooms - 312ms
+[2026-01-05 12:30:08] INFO GET /api/chat/rooms 200 - 312ms
+[2026-01-05 12:30:10] ERROR Performance severely degraded
+[2026-01-05 12:30:15] WARN GET /api/posts 200 - 412ms
+[2026-01-05 12:30:20] ERROR GET /api/notifications 200 - 534ms
+[2026-01-05 12:45:00] INFO Server memory usage: 1356MB
+[2026-01-05 12:45:00] ERROR Critical memory usage: 1356MB
+[2026-01-05 12:45:00] ERROR System performance critically degraded
+[2026-01-05 12:45:05] ERROR GET /api/posts 500 - 1245ms - Request timeout
+[2026-01-05 12:45:10] ERROR GET /api/chat/rooms 500 - 2145ms - Out of memory
+[2026-01-05 12:45:15] ERROR POST /api/posts 500 - 1567ms - Memory allocation failed
+[2026-01-05 12:45:20] ERROR Server approaching crash state
+[2026-01-05 12:45:25] CRITICAL Immediate server restart required

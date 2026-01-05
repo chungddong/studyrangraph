@@ -1,0 +1,56 @@
+[2026-01-05 16:00:00] INFO Server is running on port 3333
+[2026-01-05 16:00:01] INFO Database connected successfully
+[2026-01-05 16:00:05] INFO GET /api/posts - User: user123
+[2026-01-05 16:00:05] ERROR GET /api/posts 401 - 8ms - 유효하지 않은 토큰입니다
+[2026-01-05 16:00:06] INFO GET /api/profile - User: user456
+[2026-01-05 16:00:06] ERROR GET /api/profile 401 - 7ms - 유효하지 않은 토큰입니다
+[2026-01-05 16:00:07] INFO POST /api/posts - User: user789
+[2026-01-05 16:00:07] ERROR POST /api/posts 401 - 9ms - 유효하지 않은 토큰입니다
+[2026-01-05 16:00:08] INFO GET /api/notifications - User: user321
+[2026-01-05 16:00:08] ERROR GET /api/notifications 401 - 6ms - 유효하지 않은 토큰입니다
+[2026-01-05 16:00:10] INFO GET /api/chat/rooms - User: user654
+[2026-01-05 16:00:10] ERROR GET /api/chat/rooms 401 - 8ms - 유효하지 않은 토큰입니다
+[2026-01-05 16:00:11] INFO GET /api/posts - User: user987
+[2026-01-05 16:00:11] ERROR GET /api/posts 401 - 7ms - 유효하지 않은 토큰입니다
+[2026-01-05 16:00:12] INFO GET /api/profile - User: user147
+[2026-01-05 16:00:12] ERROR GET /api/profile 401 - 8ms - 유효하지 않은 토큰입니다
+[2026-01-05 16:00:13] INFO POST /api/comments - User: user258
+[2026-01-05 16:00:13] ERROR POST /api/comments 401 - 9ms - 유효하지 않은 토큰입니다
+[2026-01-05 16:00:15] INFO GET /api/notifications - User: user369
+[2026-01-05 16:00:15] ERROR GET /api/notifications 401 - 6ms - 유효하지 않은 토큰입니다
+[2026-01-05 16:00:16] INFO PUT /api/posts/15 - User: user741
+[2026-01-05 16:00:16] ERROR PUT /api/posts/15 401 - 8ms - 유효하지 않은 토큰입니다
+[2026-01-05 16:00:18] INFO GET /api/chat/rooms - User: user852
+[2026-01-05 16:00:18] ERROR GET /api/chat/rooms 401 - 7ms - 유효하지 않은 토큰입니다
+[2026-01-05 16:00:20] INFO GET /api/profile/stats - User: user963
+[2026-01-05 16:00:20] ERROR GET /api/profile/stats 401 - 8ms - 유효하지 않은 토큰입니다
+[2026-01-05 16:00:22] INFO POST /api/posts - User: user159
+[2026-01-05 16:00:22] ERROR POST /api/posts 401 - 9ms - 유효하지 않은 토큰입니다
+[2026-01-05 16:00:25] INFO GET /api/emoticons/sets - User: user357
+[2026-01-05 16:00:25] ERROR GET /api/emoticons/sets 401 - 7ms - 유효하지 않은 토큰입니다
+[2026-01-05 16:00:27] INFO DELETE /api/posts/8 - User: user486
+[2026-01-05 16:00:27] ERROR DELETE /api/posts/8 401 - 8ms - 유효하지 않은 토큰입니다
+[2026-01-05 16:00:30] INFO GET /api/posts - User: user591
+[2026-01-05 16:00:30] ERROR GET /api/posts 401 - 7ms - 유효하지 않은 토큰입니다
+[2026-01-05 16:00:32] INFO POST /api/chat/message - User: user624
+[2026-01-05 16:00:32] ERROR POST /api/chat/message 401 - 9ms - 유효하지 않은 토큰입니다
+[2026-01-05 16:00:35] INFO GET /api/categories/available - User: user735
+[2026-01-05 16:00:35] ERROR GET /api/categories/available 401 - 6ms - 유효하지 않은 토큰입니다
+[2026-01-05 16:00:38] INFO PUT /api/comments/42 - User: user846
+[2026-01-05 16:00:38] ERROR PUT /api/comments/42 401 - 8ms - 유효하지 않은 토큰입니다
+[2026-01-05 16:00:40] INFO GET /api/notices - User: user951
+[2026-01-05 16:00:40] ERROR GET /api/notices 401 - 7ms - 유효하지 않은 토큰입니다
+[2026-01-05 16:01:00] WARN High rate of 401 errors detected: 156 token validation failures in last minute
+[2026-01-05 16:01:00] WARN Token expiry pattern detected - possible mass token expiration event
+[2026-01-05 16:01:05] INFO POST /login - user123 - Re-login after token expiry
+[2026-01-05 16:01:05] INFO POST /login 200 - 118ms
+[2026-01-05 16:01:08] INFO POST /login - user456 - Re-login after token expiry
+[2026-01-05 16:01:08] INFO POST /login 200 - 122ms
+[2026-01-05 16:01:10] INFO POST /login - user789 - Re-login after token expiry
+[2026-01-05 16:01:10] INFO POST /login 200 - 119ms
+[2026-01-05 16:01:12] INFO POST /login - user321 - Re-login after token expiry
+[2026-01-05 16:01:12] INFO POST /login 200 - 121ms
+[2026-01-05 16:01:15] INFO POST /login - user654 - Re-login after token expiry
+[2026-01-05 16:01:15] INFO POST /login 200 - 117ms
+[2026-01-05 16:01:18] WARN Login spike detected: 85 re-login requests in 1 minute
+[2026-01-05 16:01:20] INFO Recommend implementing refresh token mechanism

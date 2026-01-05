@@ -1,0 +1,35 @@
+{
+  "scenario_id": "08",
+  "scenario_name": "입력 검증 실패 (클라이언트 배포 오류)",
+  "severity": "low",
+  "category": "애플리케이션",
+  "description": "새로운 클라이언트 배포 후 필수 필드 누락으로 인한 400 에러 급증",
+  "expected_findings": [
+    "특정 시간 이후 400 에러 급증",
+    "동일한 에러 메시지 반복",
+    "특정 엔드포인트 집중 발생",
+    "배포 시간과의 상관관계",
+    "정상 로그 대비 에러 비율 증가"
+  ],
+  "recommended_actions": [
+    "프론트엔드 배포 롤백 검토",
+    "API 스펙 문서 확인",
+    "개발팀에 긴급 알림",
+    "클라이언트 버그 수정 및 핫픽스 배포",
+    "QA 프로세스 개선"
+  ],
+  "impact": {
+    "service_availability": "100%",
+    "affected_users": "새 클라이언트 사용자 전체",
+    "data_loss_risk": "없음",
+    "user_experience": "기능 사용 불가"
+  },
+  "datasets": {
+    "dataset-01": {
+      "description": "배포 후 검증 에러 급증",
+      "log_count": 140,
+      "time_span": "15분",
+      "issue_density": "높음"
+    }
+  }
+}

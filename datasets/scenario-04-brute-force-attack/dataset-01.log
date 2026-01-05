@@ -1,0 +1,81 @@
+[2026-01-05 09:15:00] INFO Server is running on port 3333
+[2026-01-05 09:15:01] INFO Database connected successfully
+[2026-01-05 09:15:05] INFO GET /api/health 200 - 5ms
+[2026-01-05 09:15:10] INFO POST /login - IP: 192.168.1.100 - user1@example.com
+[2026-01-05 09:15:10] ERROR POST /login 401 - 125ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:11] INFO POST /login - IP: 192.168.1.100 - user1@example.com
+[2026-01-05 09:15:11] ERROR POST /login 401 - 118ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:12] INFO POST /login - IP: 192.168.1.100 - user1@example.com
+[2026-01-05 09:15:12] ERROR POST /login 401 - 122ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:13] INFO POST /login - IP: 192.168.1.100 - user1@example.com
+[2026-01-05 09:15:13] ERROR POST /login 401 - 120ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:14] INFO POST /login - IP: 192.168.1.100 - user1@example.com
+[2026-01-05 09:15:14] ERROR POST /login 401 - 119ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:15] INFO POST /login - IP: 192.168.1.100 - admin@example.com
+[2026-01-05 09:15:15] ERROR POST /login 401 - 115ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:16] INFO POST /login - IP: 192.168.1.100 - admin@example.com
+[2026-01-05 09:15:16] ERROR POST /login 401 - 121ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:17] INFO POST /login - IP: 192.168.1.100 - admin@example.com
+[2026-01-05 09:15:17] ERROR POST /login 401 - 117ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:18] INFO POST /login - IP: 192.168.1.100 - admin@example.com
+[2026-01-05 09:15:18] ERROR POST /login 401 - 123ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:19] INFO POST /login - IP: 192.168.1.100 - admin@example.com
+[2026-01-05 09:15:19] ERROR POST /login 401 - 116ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:20] INFO POST /login - IP: 192.168.1.100 - test@example.com
+[2026-01-05 09:15:20] ERROR POST /login 401 - 119ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:21] INFO POST /login - IP: 192.168.1.100 - test@example.com
+[2026-01-05 09:15:21] ERROR POST /login 401 - 120ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:22] INFO POST /login - IP: 192.168.1.100 - test@example.com
+[2026-01-05 09:15:22] ERROR POST /login 401 - 118ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:23] INFO POST /login - IP: 192.168.1.100 - root@example.com
+[2026-01-05 09:15:23] ERROR POST /login 401 - 122ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:24] INFO POST /login - IP: 192.168.1.100 - root@example.com
+[2026-01-05 09:15:24] ERROR POST /login 401 - 117ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:25] INFO POST /login - IP: 192.168.1.100 - root@example.com
+[2026-01-05 09:15:25] ERROR POST /login 401 - 121ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:26] INFO POST /login - IP: 192.168.1.100 - support@example.com
+[2026-01-05 09:15:26] ERROR POST /login 401 - 119ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:27] INFO POST /login - IP: 192.168.1.100 - support@example.com
+[2026-01-05 09:15:27] ERROR POST /login 401 - 116ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:28] INFO POST /login - IP: 192.168.1.100 - info@example.com
+[2026-01-05 09:15:28] ERROR POST /login 401 - 120ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:29] INFO POST /login - IP: 192.168.1.100 - info@example.com
+[2026-01-05 09:15:29] ERROR POST /login 401 - 118ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:30] INFO POST /login - IP: 192.168.1.100 - contact@example.com
+[2026-01-05 09:15:30] ERROR POST /login 401 - 123ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:31] INFO POST /login - IP: 192.168.1.100 - contact@example.com
+[2026-01-05 09:15:31] ERROR POST /login 401 - 115ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:32] INFO POST /login - IP: 192.168.1.100 - webmaster@example.com
+[2026-01-05 09:15:32] ERROR POST /login 401 - 119ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:33] INFO POST /login - IP: 192.168.1.100 - webmaster@example.com
+[2026-01-05 09:15:33] ERROR POST /login 401 - 121ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:34] INFO POST /login - IP: 192.168.1.100 - postmaster@example.com
+[2026-01-05 09:15:34] ERROR POST /login 401 - 117ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:35] INFO POST /login - IP: 192.168.1.100 - postmaster@example.com
+[2026-01-05 09:15:35] ERROR POST /login 401 - 120ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:36] INFO POST /login - IP: 192.168.1.100 - sales@example.com
+[2026-01-05 09:15:36] ERROR POST /login 401 - 118ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:37] INFO POST /login - IP: 192.168.1.100 - sales@example.com
+[2026-01-05 09:15:37] ERROR POST /login 401 - 122ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:38] INFO POST /login - IP: 192.168.1.100 - marketing@example.com
+[2026-01-05 09:15:38] ERROR POST /login 401 - 116ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:39] INFO POST /login - IP: 192.168.1.100 - marketing@example.com
+[2026-01-05 09:15:39] ERROR POST /login 401 - 119ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:40] INFO POST /login - IP: 192.168.1.100 - service@example.com
+[2026-01-05 09:15:40] ERROR POST /login 401 - 121ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:41] INFO POST /login - IP: 192.168.1.100 - service@example.com
+[2026-01-05 09:15:41] ERROR POST /login 401 - 117ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:42] INFO POST /login - IP: 192.168.1.100 - noreply@example.com
+[2026-01-05 09:15:42] ERROR POST /login 401 - 120ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:43] INFO POST /login - IP: 192.168.1.100 - noreply@example.com
+[2026-01-05 09:15:43] ERROR POST /login 401 - 118ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:44] INFO POST /login - IP: 192.168.1.100 - help@example.com
+[2026-01-05 09:15:44] ERROR POST /login 401 - 123ms - 아이디와 비밀번호를 확인해주세요
+[2026-01-05 09:15:45] WARN Suspicious activity detected: 45 failed login attempts from IP 192.168.1.100 in 35 seconds
+[2026-01-05 09:15:45] ERROR Potential brute force attack detected from IP: 192.168.1.100
+[2026-01-05 09:15:45] WARN Recommend immediate IP blocking: 192.168.1.100
+[2026-01-05 09:15:46] INFO POST /login - IP: 192.168.1.100 - help@example.com
+[2026-01-05 09:15:46] ERROR POST /login 429 - 5ms - Too many requests, please try again later
+[2026-01-05 09:15:47] INFO POST /login - IP: 192.168.1.100 - abuse@example.com
+[2026-01-05 09:15:47] ERROR POST /login 429 - 4ms - Too many requests, please try again later
+[2026-01-05 09:15:48] INFO Blocked IP 192.168.1.100 due to brute force attack

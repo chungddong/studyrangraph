@@ -1,0 +1,40 @@
+[2026-01-05 13:45:00] INFO Server is running on port 3333
+[2026-01-05 13:45:01] INFO Database connected successfully
+[2026-01-05 13:45:05] INFO POST /login 200 - 119ms - User: normaluser (role: user)
+[2026-01-05 13:45:08] INFO GET /api/profile 200 - 34ms - User: normaluser
+[2026-01-05 13:45:10] INFO GET /api/posts 200 - 45ms - User: normaluser
+[2026-01-05 13:45:15] INFO GET /api/categories - User: normaluser (role: user)
+[2026-01-05 13:45:15] ERROR GET /api/categories 403 - 12ms - 관리자 권한이 필요합니다
+[2026-01-05 13:45:18] INFO POST /api/categories - User: normaluser (role: user)
+[2026-01-05 13:45:18] ERROR POST /api/categories 403 - 10ms - 관리자 권한이 필요합니다
+[2026-01-05 13:45:20] INFO POST /api/categories - User: normaluser (role: user)
+[2026-01-05 13:45:20] ERROR POST /api/categories 403 - 11ms - 관리자 권한이 필요합니다
+[2026-01-05 13:45:22] INFO DELETE /api/posts/15 - User: normaluser (role: user) - Post owner: otheruser
+[2026-01-05 13:45:22] ERROR DELETE /api/posts/15 403 - 15ms - 본인의 게시글만 삭제할 수 있습니다
+[2026-01-05 13:45:25] INFO PUT /api/posts/23 - User: normaluser (role: user) - Post owner: anotheruser
+[2026-01-05 13:45:25] ERROR PUT /api/posts/23 403 - 14ms - 본인의 게시글만 수정할 수 있습니다
+[2026-01-05 13:45:28] INFO DELETE /api/posts/8 - User: normaluser (role: user) - Post owner: admin
+[2026-01-05 13:45:28] ERROR DELETE /api/posts/8 403 - 16ms - 본인의 게시글만 삭제할 수 있습니다
+[2026-01-05 13:45:30] INFO PUT /api/posts/12 - User: normaluser (role: user) - Post owner: moderator
+[2026-01-05 13:45:30] ERROR PUT /api/posts/12 403 - 13ms - 본인의 게시글만 수정할 수 있습니다
+[2026-01-05 13:45:32] INFO POST /api/notices - User: normaluser (role: user)
+[2026-01-05 13:45:32] ERROR POST /api/notices 403 - 11ms - 관리자 권한이 필요합니다
+[2026-01-05 13:45:35] INFO PUT /api/notices/5 - User: normaluser (role: user)
+[2026-01-05 13:45:35] ERROR PUT /api/notices/5 403 - 12ms - 관리자 권한이 필요합니다
+[2026-01-05 13:45:38] INFO DELETE /api/notices/3 - User: normaluser (role: user)
+[2026-01-05 13:45:38] ERROR DELETE /api/notices/3 403 - 10ms - 관리자 권한이 필요합니다
+[2026-01-05 13:45:40] WARN Privilege escalation attempt detected: User normaluser attempted 10 unauthorized actions
+[2026-01-05 13:45:42] INFO DELETE /api/comments/88 - User: normaluser (role: user) - Comment owner: someuser
+[2026-01-05 13:45:42] ERROR DELETE /api/comments/88 403 - 14ms - 본인의 댓글만 삭제할 수 있습니다
+[2026-01-05 13:45:45] INFO PUT /api/comments/92 - User: normaluser (role: user) - Comment owner: testuser
+[2026-01-05 13:45:45] ERROR PUT /api/comments/92 403 - 13ms - 본인의 댓글만 수정할 수 있습니다
+[2026-01-05 13:45:48] INFO GET /api/profile/stats?userId=admin - User: normaluser (role: user)
+[2026-01-05 13:45:48] ERROR GET /api/profile/stats 403 - 15ms - 본인의 프로필만 조회할 수 있습니다
+[2026-01-05 13:45:50] INFO PUT /api/profile/password?userId=otheruser - User: normaluser (role: user)
+[2026-01-05 13:45:50] ERROR PUT /api/profile/password 403 - 16ms - 본인의 비밀번호만 변경할 수 있습니다
+[2026-01-05 13:45:53] INFO POST /api/categories - User: normaluser (role: user)
+[2026-01-05 13:45:53] ERROR POST /api/categories 403 - 11ms - 관리자 권한이 필요합니다
+[2026-01-05 13:45:55] WARN Security alert: User normaluser attempted 15 unauthorized actions in 50 seconds
+[2026-01-05 13:45:55] ERROR Critical: Systematic privilege escalation attack detected
+[2026-01-05 13:45:55] WARN Recommend immediate account suspension: normaluser
+[2026-01-05 13:45:58] INFO Account normaluser temporarily suspended due to security violations

@@ -1,0 +1,63 @@
+{
+  "scenario_id": "02",
+  "scenario_name": "XSS 공격 시도",
+  "severity": "high",
+  "category": "보안",
+  "description": "악의적인 사용자가 게시글/댓글 작성 시 스크립트 태그 삽입을 통한 XSS 공격 시도",
+  "expected_findings": [
+    "동일 사용자의 반복적인 공격 시도",
+    "다양한 XSS 페이로드 패턴 감지",
+    "짧은 시간 내 여러 엔드포인트 공격",
+    "보안 필터가 정상적으로 차단 중",
+    "400 Bad Request 에러 집중 발생"
+  ],
+  "recommended_actions": [
+    "해당 사용자 계정 일시 정지",
+    "IP 주소 차단 고려",
+    "보안 로그 상세 분석",
+    "다른 엔드포인트의 보안 점검",
+    "WAF(Web Application Firewall) 규칙 검토",
+    "보안팀에 알림"
+  ],
+  "impact": {
+    "service_availability": "100% (공격 차단됨)",
+    "affected_users": "없음 (차단 성공)",
+    "data_loss_risk": "없음",
+    "security_risk": "높음 (지속적 공격 시도)"
+  },
+  "datasets": {
+    "dataset-01": {
+      "description": "기본 XSS 공격 시나리오",
+      "log_count": 75,
+      "time_span": "10분",
+      "issue_density": "높음",
+      "characteristics": [
+        "단일 사용자의 집중적인 공격",
+        "다양한 XSS 페이로드 시도",
+        "모든 공격이 차단됨"
+      ]
+    },
+    "dataset-02": {
+      "description": "혼합 시나리오 - 정상 트래픽 + XSS 공격",
+      "log_count": 320,
+      "time_span": "20분",
+      "issue_density": "중간",
+      "characteristics": [
+        "정상 사용자 트래픽 사이 공격 시도",
+        "여러 공격 벡터 사용",
+        "게시글과 댓글 모두 공격"
+      ]
+    },
+    "dataset-03": {
+      "description": "복합 시나리오 - 다중 공격자",
+      "log_count": 650,
+      "time_span": "30분",
+      "issue_density": "낮음",
+      "characteristics": [
+        "여러 사용자의 XSS 공격 시도",
+        "다양한 시간대에 분산",
+        "정상 로그가 대부분"
+      ]
+    }
+  }
+}

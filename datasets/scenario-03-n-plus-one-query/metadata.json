@@ -1,0 +1,63 @@
+{
+  "scenario_id": "03",
+  "scenario_name": "N+1 쿼리 성능 문제",
+  "severity": "medium",
+  "category": "성능",
+  "description": "게시글 목록 조회 시 각 게시글마다 댓글을 개별 조회하여 응답 시간이 급격히 증가하는 성능 문제",
+  "expected_findings": [
+    "반복적인 느린 쿼리 경고",
+    "동일 엔드포인트의 일관된 성능 저하",
+    "쿼리 실행 횟수 급증 패턴",
+    "응답 시간이 임계값(200ms) 초과",
+    "페이지 크기에 비례하는 성능 저하"
+  ],
+  "recommended_actions": [
+    "TypeORM relations 설정 추가",
+    "JOIN 쿼리 사용으로 전환",
+    "쿼리 최적화 수행",
+    "데이터베이스 인덱스 검토",
+    "쿼리 실행 계획 분석",
+    "캐싱 전략 검토"
+  ],
+  "impact": {
+    "service_availability": "100% (서비스는 동작)",
+    "affected_users": "전체 (느린 응답)",
+    "data_loss_risk": "없음",
+    "performance_degradation": "심각 (200ms → 2000ms)"
+  },
+  "datasets": {
+    "dataset-01": {
+      "description": "기본 N+1 쿼리 문제",
+      "log_count": 120,
+      "time_span": "10분",
+      "issue_density": "높음",
+      "characteristics": [
+        "게시글 목록 API 일관된 느린 응답",
+        "DEBUG 로그에 반복 쿼리 명확히 표시",
+        "응답 시간이 1초 이상"
+      ]
+    },
+    "dataset-02": {
+      "description": "혼합 시나리오 - 정상 API + 느린 API",
+      "log_count": 280,
+      "time_span": "20분",
+      "issue_density": "중간",
+      "characteristics": [
+        "일부 API는 정상 속도",
+        "게시글 목록 API만 느림",
+        "페이지 크기에 따라 성능 차이"
+      ]
+    },
+    "dataset-03": {
+      "description": "점진적 성능 저하",
+      "log_count": 450,
+      "time_span": "1시간",
+      "issue_density": "낮음",
+      "characteristics": [
+        "시간이 지날수록 성능 저하",
+        "데이터 증가에 따른 문제 악화",
+        "다른 정상 로그 다수 포함"
+      ]
+    }
+  }
+}

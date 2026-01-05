@@ -1,0 +1,137 @@
+[2026-01-05 14:00:00] INFO Server is running on port 3333
+[2026-01-05 14:00:01] INFO Database connected successfully
+[2026-01-05 14:00:05] INFO GET /api/posts?page=1&limit=10 200 - 43ms
+[2026-01-05 14:00:08] INFO POST /login 200 - 121ms
+[2026-01-05 14:00:10] INFO GET /api/profile 200 - 34ms
+[2026-01-05 14:00:12] INFO GET /api/notifications 200 - 29ms
+[2026-01-05 14:00:15] INFO POST /api/posts 201 - 148ms
+[2026-01-05 14:00:18] INFO GET /api/posts/15 200 - 32ms
+[2026-01-05 14:00:20] INFO POST /api/comments 201 - 85ms
+[2026-01-05 14:00:23] INFO GET /api/chat/rooms 200 - 44ms
+[2026-01-05 14:00:25] INFO GET /api/health 200 - 5ms
+[2026-01-05 14:00:28] INFO PUT /api/posts/22 200 - 97ms
+[2026-01-05 14:00:30] INFO GET /api/emoticons/sets 200 - 37ms
+[2026-01-05 14:00:33] INFO GET /api/posts?page=2&limit=10 200 - 46ms
+[2026-01-05 14:00:35] INFO DELETE /api/comments/45 200 - 69ms
+[2026-01-05 14:00:38] INFO GET /api/profile/stats 200 - 53ms
+[2026-01-05 14:00:40] INFO POST /api/posts/8/like 200 - 42ms
+[2026-01-05 14:00:43] INFO GET /api/notices?page=1&limit=5 200 - 40ms
+[2026-01-05 14:00:45] INFO GET /api/categories/available 200 - 28ms
+[2026-01-05 14:00:48] INFO POST /api/chat/message 201 - 73ms
+[2026-01-05 14:00:50] INFO GET /api/posts?category=tech 200 - 54ms
+[2026-01-05 14:00:53] INFO PUT /api/comments/88 200 - 89ms
+[2026-01-05 14:00:55] INFO GET /api/posts/31 200 - 35ms
+[2026-01-05 14:00:58] INFO POST /register 201 - 231ms
+[2026-01-05 14:01:00] INFO GET /api/chat/messages/room-123 200 - 61ms
+[2026-01-05 14:01:03] INFO GET /api/posts?page=3&limit=10 200 - 48ms
+[2026-01-05 14:01:05] INFO PUT /api/profile/password 200 - 179ms
+[2026-01-05 14:01:08] INFO GET /api/notifications 200 - 38ms
+[2026-01-05 14:01:10] INFO POST /api/posts 201 - 151ms
+[2026-01-05 14:01:12] INFO GET /api/profile 200 - 33ms
+[2026-01-05 14:01:15] INFO DELETE /api/posts/17 200 - 71ms
+[2026-01-05 14:01:17] WARN GET /api/posts/999 404 - 15ms - 게시글을 찾을 수 없습니다
+[2026-01-05 14:01:20] INFO POST /api/posts/12/like 200 - 43ms
+[2026-01-05 14:01:22] INFO GET /api/health 200 - 5ms
+[2026-01-05 14:01:25] INFO GET /api/emoticons/sets 200 - 36ms
+[2026-01-05 14:01:27] ERROR POST /api/posts 400 - 18ms - 제목은 필수입니다
+[2026-01-05 14:01:30] INFO POST /api/comments 201 - 88ms
+[2026-01-05 14:01:32] INFO GET /api/posts?page=4&limit=10 200 - 49ms
+[2026-01-05 14:01:35] INFO PUT /api/posts/9 200 - 94ms
+[2026-01-05 14:01:37] INFO GET /api/profile 200 - 34ms
+[2026-01-05 14:01:40] INFO POST /login 200 - 118ms
+[2026-01-05 14:01:42] INFO GET /api/notifications 200 - 39ms
+[2026-01-05 14:01:45] INFO GET /api/chat/rooms 200 - 45ms
+[2026-01-05 14:01:47] ERROR GET /api/profile 401 - 9ms - 유효하지 않은 토큰입니다
+[2026-01-05 14:01:50] INFO POST /api/chat/message 201 - 74ms
+[2026-01-05 14:01:52] INFO GET /api/posts/28 200 - 36ms
+[2026-01-05 14:01:55] INFO DELETE /api/comments/63 200 - 67ms
+[2026-01-05 14:01:57] INFO GET /api/profile/stats 200 - 52ms
+[2026-01-05 14:02:00] INFO POST /api/posts 201 - 147ms
+[2026-01-05 14:02:02] INFO GET /api/categories/available 200 - 29ms
+[2026-01-05 14:02:05] INFO GET /api/posts?category=news 200 - 55ms
+[2026-01-05 14:02:07] INFO PUT /api/comments/91 200 - 90ms
+[2026-01-05 14:02:10] INFO GET /api/health 200 - 5ms
+[2026-01-05 14:02:12] INFO POST /api/posts/19/like 200 - 44ms
+[2026-01-05 14:02:15] INFO GET /api/notices 200 - 41ms
+[2026-01-05 14:02:17] INFO GET /api/emoticons/sets 200 - 37ms
+[2026-01-05 14:02:20] INFO POST /api/comments 201 - 86ms
+[2026-01-05 14:02:22] ERROR Database connection error: Error: connect ECONNREFUSED 127.0.0.1:3306
+[2026-01-05 14:02:22] WARN Database connection lost, attempting to reconnect
+[2026-01-05 14:02:23] INFO GET /api/posts?page=1&limit=10
+[2026-01-05 14:02:23] ERROR GET /api/posts 500 - 8ms - Database connection unavailable
+[2026-01-05 14:02:25] INFO POST /login
+[2026-01-05 14:02:25] ERROR POST /login 500 - 10ms - Database connection unavailable
+[2026-01-05 14:02:27] INFO GET /api/profile
+[2026-01-05 14:02:27] ERROR GET /api/profile 500 - 7ms - Cannot read property 'findOne' of undefined
+[2026-01-05 14:02:28] ERROR Database reconnection attempt 1 failed
+[2026-01-05 14:02:30] INFO GET /api/notifications
+[2026-01-05 14:02:30] ERROR GET /api/notifications 500 - 8ms - Cannot read property 'find' of undefined
+[2026-01-05 14:02:32] INFO POST /api/posts
+[2026-01-05 14:02:32] ERROR POST /api/posts 500 - 11ms - Database connection unavailable
+[2026-01-05 14:02:35] INFO GET /api/chat/rooms
+[2026-01-05 14:02:35] ERROR GET /api/chat/rooms 500 - 7ms - Cannot read property 'find' of undefined
+[2026-01-05 14:02:37] INFO PUT /api/posts/5
+[2026-01-05 14:02:37] ERROR PUT /api/posts/5 500 - 9ms - Database connection unavailable
+[2026-01-05 14:02:38] ERROR Database reconnection attempt 2 failed
+[2026-01-05 14:02:40] INFO DELETE /api/posts/11
+[2026-01-05 14:02:40] ERROR DELETE /api/posts/11 500 - 8ms - Cannot read property 'findOne' of undefined
+[2026-01-05 14:02:42] INFO GET /api/profile/stats
+[2026-01-05 14:02:42] ERROR GET /api/profile/stats 500 - 7ms - Database connection unavailable
+[2026-01-05 14:02:45] INFO POST /api/comments
+[2026-01-05 14:02:45] ERROR POST /api/comments 500 - 9ms - Database connection unavailable
+[2026-01-05 14:02:47] INFO GET /api/health
+[2026-01-05 14:02:47] WARN GET /api/health 200 - 4ms - Server running but database disconnected
+[2026-01-05 14:02:48] ERROR Database reconnection attempt 3 failed
+[2026-01-05 14:02:50] INFO POST /register
+[2026-01-05 14:02:50] ERROR POST /register 500 - 11ms - Database connection unavailable
+[2026-01-05 14:02:52] INFO GET /api/emoticons/sets
+[2026-01-05 14:02:52] ERROR GET /api/emoticons/sets 500 - 8ms - Database connection unavailable
+[2026-01-05 14:02:55] INFO GET /api/posts/24
+[2026-01-05 14:02:55] ERROR GET /api/posts/24 500 - 7ms - Cannot read property 'findOne' of undefined
+[2026-01-05 14:02:57] INFO PUT /api/comments/77
+[2026-01-05 14:02:57] ERROR PUT /api/comments/77 500 - 9ms - Database connection unavailable
+[2026-01-05 14:02:58] ERROR Database reconnection attempt 4 failed
+[2026-01-05 14:03:00] INFO POST /api/chat/message
+[2026-01-05 14:03:00] ERROR POST /api/chat/message 500 - 10ms - Database connection unavailable
+[2026-01-05 14:03:02] INFO GET /api/categories/available
+[2026-01-05 14:03:02] ERROR GET /api/categories/available 500 - 8ms - Cannot read property 'find' of undefined
+[2026-01-05 14:03:05] INFO GET /api/notices
+[2026-01-05 14:03:05] ERROR GET /api/notices 500 - 9ms - Cannot read property 'findAndCount' of undefined
+[2026-01-05 14:03:07] INFO POST /api/posts/7/like
+[2026-01-05 14:03:07] ERROR POST /api/posts/7/like 500 - 8ms - Cannot read property 'findOne' of undefined
+[2026-01-05 14:03:08] ERROR Database reconnection attempt 5 failed
+[2026-01-05 14:03:08] ERROR Maximum reconnection attempts reached, manual intervention required
+[2026-01-05 14:03:10] INFO GET /api/posts?page=2&limit=10
+[2026-01-05 14:03:10] ERROR GET /api/posts 500 - 8ms - Database connection unavailable
+[2026-01-05 14:03:12] INFO POST /login
+[2026-01-05 14:03:12] ERROR POST /login 500 - 10ms - Database connection unavailable
+[2026-01-05 14:03:15] INFO GET /api/profile
+[2026-01-05 14:03:15] ERROR GET /api/profile 500 - 7ms - Database connection unavailable
+[2026-01-05 14:03:17] INFO GET /api/notifications
+[2026-01-05 14:03:17] ERROR GET /api/notifications 500 - 8ms - Cannot read property 'find' of undefined
+[2026-01-05 14:03:20] INFO POST /api/posts
+[2026-01-05 14:03:20] ERROR POST /api/posts 500 - 11ms - Database connection unavailable
+[2026-01-05 14:03:22] INFO GET /api/health
+[2026-01-05 14:03:22] ERROR GET /api/health 503 - 4ms - Service unavailable: database disconnected
+[2026-01-05 14:03:25] INFO GET /api/chat/rooms
+[2026-01-05 14:03:25] ERROR GET /api/chat/rooms 500 - 7ms - Cannot read property 'find' of undefined
+[2026-01-05 14:03:27] INFO PUT /api/posts/13
+[2026-01-05 14:03:27] ERROR PUT /api/posts/13 500 - 9ms - Database connection unavailable
+[2026-01-05 14:03:30] INFO DELETE /api/comments/52
+[2026-01-05 14:03:30] ERROR DELETE /api/comments/52 500 - 8ms - Cannot read property 'findOne' of undefined
+[2026-01-05 14:03:32] INFO GET /api/profile/stats
+[2026-01-05 14:03:32] ERROR GET /api/profile/stats 500 - 7ms - Database connection unavailable
+[2026-01-05 14:03:35] INFO POST /api/comments
+[2026-01-05 14:03:35] ERROR POST /api/comments 500 - 9ms - Database connection unavailable
+[2026-01-05 14:03:37] INFO POST /register
+[2026-01-05 14:03:37] ERROR POST /register 500 - 11ms - Database connection unavailable
+[2026-01-05 14:03:40] INFO GET /api/emoticons/sets
+[2026-01-05 14:03:40] ERROR GET /api/emoticons/sets 500 - 8ms - Database connection unavailable
+[2026-01-05 14:03:42] INFO GET /api/posts/36
+[2026-01-05 14:03:42] ERROR GET /api/posts/36 500 - 7ms - Cannot read property 'findOne' of undefined
+[2026-01-05 14:03:45] INFO POST /api/chat/message
+[2026-01-05 14:03:45] ERROR POST /api/chat/message 500 - 10ms - Database connection unavailable
+[2026-01-05 14:03:47] INFO GET /api/categories/available
+[2026-01-05 14:03:47] ERROR GET /api/categories/available 500 - 8ms - Cannot read property 'find' of undefined
+[2026-01-05 14:03:50] INFO GET /api/notices?page=1&limit=5
+[2026-01-05 14:03:50] ERROR GET /api/notices 500 - 9ms - Cannot read property 'findAndCount' of undefined

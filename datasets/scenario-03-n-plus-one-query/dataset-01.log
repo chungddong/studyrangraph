@@ -1,0 +1,140 @@
+[2026-01-05 11:15:00] INFO Server is running on port 3333
+[2026-01-05 11:15:01] INFO Database connected successfully
+[2026-01-05 11:15:05] INFO GET /api/health 200 - 5ms
+[2026-01-05 11:15:08] INFO POST /login 200 - 118ms
+[2026-01-05 11:15:10] INFO GET /api/profile 200 - 34ms
+[2026-01-05 11:15:15] INFO GET /api/posts?page=1&limit=20
+[2026-01-05 11:15:15] DEBUG Executed query: SELECT * FROM post ORDER BY created_at DESC LIMIT 20
+[2026-01-05 11:15:15] DEBUG Query execution time: 45ms
+[2026-01-05 11:15:15] DEBUG Executed query: SELECT * FROM comment WHERE postId = 1
+[2026-01-05 11:15:15] DEBUG Executed query: SELECT * FROM comment WHERE postId = 2
+[2026-01-05 11:15:15] DEBUG Executed query: SELECT * FROM comment WHERE postId = 3
+[2026-01-05 11:15:15] DEBUG Executed query: SELECT * FROM comment WHERE postId = 4
+[2026-01-05 11:15:15] DEBUG Executed query: SELECT * FROM comment WHERE postId = 5
+[2026-01-05 11:15:15] DEBUG Executed query: SELECT * FROM comment WHERE postId = 6
+[2026-01-05 11:15:15] DEBUG Executed query: SELECT * FROM comment WHERE postId = 7
+[2026-01-05 11:15:15] DEBUG Executed query: SELECT * FROM comment WHERE postId = 8
+[2026-01-05 11:15:15] DEBUG Executed query: SELECT * FROM comment WHERE postId = 9
+[2026-01-05 11:15:15] DEBUG Executed query: SELECT * FROM comment WHERE postId = 10
+[2026-01-05 11:15:16] DEBUG Executed query: SELECT * FROM comment WHERE postId = 11
+[2026-01-05 11:15:16] DEBUG Executed query: SELECT * FROM comment WHERE postId = 12
+[2026-01-05 11:15:16] DEBUG Executed query: SELECT * FROM comment WHERE postId = 13
+[2026-01-05 11:15:16] DEBUG Executed query: SELECT * FROM comment WHERE postId = 14
+[2026-01-05 11:15:16] DEBUG Executed query: SELECT * FROM comment WHERE postId = 15
+[2026-01-05 11:15:16] DEBUG Executed query: SELECT * FROM comment WHERE postId = 16
+[2026-01-05 11:15:16] DEBUG Executed query: SELECT * FROM comment WHERE postId = 17
+[2026-01-05 11:15:16] DEBUG Executed query: SELECT * FROM comment WHERE postId = 18
+[2026-01-05 11:15:16] DEBUG Executed query: SELECT * FROM comment WHERE postId = 19
+[2026-01-05 11:15:16] DEBUG Executed query: SELECT * FROM comment WHERE postId = 20
+[2026-01-05 11:15:16] WARN Slow query detected: GET /api/posts - 1234ms (threshold: 200ms)
+[2026-01-05 11:15:16] INFO GET /api/posts?page=1&limit=20 200 - 1234ms
+[2026-01-05 11:15:18] INFO GET /api/notifications 200 - 38ms
+[2026-01-05 11:15:22] INFO GET /api/posts?page=1&limit=20
+[2026-01-05 11:15:22] DEBUG Executed query: SELECT * FROM post ORDER BY created_at DESC LIMIT 20
+[2026-01-05 11:15:22] DEBUG Query execution time: 42ms
+[2026-01-05 11:15:22] DEBUG Executed query: SELECT * FROM comment WHERE postId = 1
+[2026-01-05 11:15:22] DEBUG Executed query: SELECT * FROM comment WHERE postId = 2
+[2026-01-05 11:15:22] DEBUG Executed query: SELECT * FROM comment WHERE postId = 3
+[2026-01-05 11:15:22] DEBUG Executed query: SELECT * FROM comment WHERE postId = 4
+[2026-01-05 11:15:22] DEBUG Executed query: SELECT * FROM comment WHERE postId = 5
+[2026-01-05 11:15:22] DEBUG Executed query: SELECT * FROM comment WHERE postId = 6
+[2026-01-05 11:15:22] DEBUG Executed query: SELECT * FROM comment WHERE postId = 7
+[2026-01-05 11:15:22] DEBUG Executed query: SELECT * FROM comment WHERE postId = 8
+[2026-01-05 11:15:22] DEBUG Executed query: SELECT * FROM comment WHERE postId = 9
+[2026-01-05 11:15:22] DEBUG Executed query: SELECT * FROM comment WHERE postId = 10
+[2026-01-05 11:15:23] DEBUG Executed query: SELECT * FROM comment WHERE postId = 11
+[2026-01-05 11:15:23] DEBUG Executed query: SELECT * FROM comment WHERE postId = 12
+[2026-01-05 11:15:23] DEBUG Executed query: SELECT * FROM comment WHERE postId = 13
+[2026-01-05 11:15:23] DEBUG Executed query: SELECT * FROM comment WHERE postId = 14
+[2026-01-05 11:15:23] DEBUG Executed query: SELECT * FROM comment WHERE postId = 15
+[2026-01-05 11:15:23] DEBUG Executed query: SELECT * FROM comment WHERE postId = 16
+[2026-01-05 11:15:23] DEBUG Executed query: SELECT * FROM comment WHERE postId = 17
+[2026-01-05 11:15:23] DEBUG Executed query: SELECT * FROM comment WHERE postId = 18
+[2026-01-05 11:15:23] DEBUG Executed query: SELECT * FROM comment WHERE postId = 19
+[2026-01-05 11:15:23] DEBUG Executed query: SELECT * FROM comment WHERE postId = 20
+[2026-01-05 11:15:23] WARN Slow query detected: GET /api/posts - 1198ms (threshold: 200ms)
+[2026-01-05 11:15:23] INFO GET /api/posts?page=1&limit=20 200 - 1198ms
+[2026-01-05 11:15:25] INFO GET /api/health 200 - 5ms
+[2026-01-05 11:15:28] INFO GET /api/posts?page=2&limit=20
+[2026-01-05 11:15:28] DEBUG Executed query: SELECT * FROM post ORDER BY created_at DESC LIMIT 20 OFFSET 20
+[2026-01-05 11:15:28] DEBUG Query execution time: 48ms
+[2026-01-05 11:15:28] DEBUG Executed query: SELECT * FROM comment WHERE postId = 21
+[2026-01-05 11:15:28] DEBUG Executed query: SELECT * FROM comment WHERE postId = 22
+[2026-01-05 11:15:28] DEBUG Executed query: SELECT * FROM comment WHERE postId = 23
+[2026-01-05 11:15:28] DEBUG Executed query: SELECT * FROM comment WHERE postId = 24
+[2026-01-05 11:15:28] DEBUG Executed query: SELECT * FROM comment WHERE postId = 25
+[2026-01-05 11:15:28] DEBUG Executed query: SELECT * FROM comment WHERE postId = 26
+[2026-01-05 11:15:28] DEBUG Executed query: SELECT * FROM comment WHERE postId = 27
+[2026-01-05 11:15:28] DEBUG Executed query: SELECT * FROM comment WHERE postId = 28
+[2026-01-05 11:15:28] DEBUG Executed query: SELECT * FROM comment WHERE postId = 29
+[2026-01-05 11:15:28] DEBUG Executed query: SELECT * FROM comment WHERE postId = 30
+[2026-01-05 11:15:29] DEBUG Executed query: SELECT * FROM comment WHERE postId = 31
+[2026-01-05 11:15:29] DEBUG Executed query: SELECT * FROM comment WHERE postId = 32
+[2026-01-05 11:15:29] DEBUG Executed query: SELECT * FROM comment WHERE postId = 33
+[2026-01-05 11:15:29] DEBUG Executed query: SELECT * FROM comment WHERE postId = 34
+[2026-01-05 11:15:29] DEBUG Executed query: SELECT * FROM comment WHERE postId = 35
+[2026-01-05 11:15:29] DEBUG Executed query: SELECT * FROM comment WHERE postId = 36
+[2026-01-05 11:15:29] DEBUG Executed query: SELECT * FROM comment WHERE postId = 37
+[2026-01-05 11:15:29] DEBUG Executed query: SELECT * FROM comment WHERE postId = 38
+[2026-01-05 11:15:29] DEBUG Executed query: SELECT * FROM comment WHERE postId = 39
+[2026-01-05 11:15:29] DEBUG Executed query: SELECT * FROM comment WHERE postId = 40
+[2026-01-05 11:15:29] WARN Slow query detected: GET /api/posts - 1267ms (threshold: 200ms)
+[2026-01-05 11:15:29] INFO GET /api/posts?page=2&limit=20 200 - 1267ms
+[2026-01-05 11:15:32] INFO GET /api/posts?page=1&limit=50
+[2026-01-05 11:15:32] DEBUG Executed query: SELECT * FROM post ORDER BY created_at DESC LIMIT 50
+[2026-01-05 11:15:32] DEBUG Query execution time: 78ms
+[2026-01-05 11:15:32] DEBUG Executed query: SELECT * FROM comment WHERE postId = 1
+[2026-01-05 11:15:32] DEBUG Executed query: SELECT * FROM comment WHERE postId = 2
+[2026-01-05 11:15:32] DEBUG Executed query: SELECT * FROM comment WHERE postId = 3
+[2026-01-05 11:15:32] DEBUG Executed query: SELECT * FROM comment WHERE postId = 4
+[2026-01-05 11:15:32] DEBUG Executed query: SELECT * FROM comment WHERE postId = 5
+[2026-01-05 11:15:32] DEBUG Executed query: SELECT * FROM comment WHERE postId = 6
+[2026-01-05 11:15:32] DEBUG Executed query: SELECT * FROM comment WHERE postId = 7
+[2026-01-05 11:15:32] DEBUG Executed query: SELECT * FROM comment WHERE postId = 8
+[2026-01-05 11:15:32] DEBUG Executed query: SELECT * FROM comment WHERE postId = 9
+[2026-01-05 11:15:32] DEBUG Executed query: SELECT * FROM comment WHERE postId = 10
+[2026-01-05 11:15:33] DEBUG Executed query: SELECT * FROM comment WHERE postId = 11
+[2026-01-05 11:15:33] DEBUG Executed query: SELECT * FROM comment WHERE postId = 12
+[2026-01-05 11:15:33] DEBUG Executed query: SELECT * FROM comment WHERE postId = 13
+[2026-01-05 11:15:33] DEBUG Executed query: SELECT * FROM comment WHERE postId = 14
+[2026-01-05 11:15:33] DEBUG Executed query: SELECT * FROM comment WHERE postId = 15
+[2026-01-05 11:15:33] DEBUG Executed query: SELECT * FROM comment WHERE postId = 16
+[2026-01-05 11:15:33] DEBUG Executed query: SELECT * FROM comment WHERE postId = 17
+[2026-01-05 11:15:33] DEBUG Executed query: SELECT * FROM comment WHERE postId = 18
+[2026-01-05 11:15:33] DEBUG Executed query: SELECT * FROM comment WHERE postId = 19
+[2026-01-05 11:15:33] DEBUG Executed query: SELECT * FROM comment WHERE postId = 20
+[2026-01-05 11:15:33] DEBUG Executed query: SELECT * FROM comment WHERE postId = 21
+[2026-01-05 11:15:33] DEBUG Executed query: SELECT * FROM comment WHERE postId = 22
+[2026-01-05 11:15:33] DEBUG Executed query: SELECT * FROM comment WHERE postId = 23
+[2026-01-05 11:15:33] DEBUG Executed query: SELECT * FROM comment WHERE postId = 24
+[2026-01-05 11:15:33] DEBUG Executed query: SELECT * FROM comment WHERE postId = 25
+[2026-01-05 11:15:34] DEBUG Executed query: SELECT * FROM comment WHERE postId = 26
+[2026-01-05 11:15:34] DEBUG Executed query: SELECT * FROM comment WHERE postId = 27
+[2026-01-05 11:15:34] DEBUG Executed query: SELECT * FROM comment WHERE postId = 28
+[2026-01-05 11:15:34] DEBUG Executed query: SELECT * FROM comment WHERE postId = 29
+[2026-01-05 11:15:34] DEBUG Executed query: SELECT * FROM comment WHERE postId = 30
+[2026-01-05 11:15:34] DEBUG Executed query: SELECT * FROM comment WHERE postId = 31
+[2026-01-05 11:15:34] DEBUG Executed query: SELECT * FROM comment WHERE postId = 32
+[2026-01-05 11:15:34] DEBUG Executed query: SELECT * FROM comment WHERE postId = 33
+[2026-01-05 11:15:34] DEBUG Executed query: SELECT * FROM comment WHERE postId = 34
+[2026-01-05 11:15:34] DEBUG Executed query: SELECT * FROM comment WHERE postId = 35
+[2026-01-05 11:15:34] DEBUG Executed query: SELECT * FROM comment WHERE postId = 36
+[2026-01-05 11:15:34] DEBUG Executed query: SELECT * FROM comment WHERE postId = 37
+[2026-01-05 11:15:34] DEBUG Executed query: SELECT * FROM comment WHERE postId = 38
+[2026-01-05 11:15:34] DEBUG Executed query: SELECT * FROM comment WHERE postId = 39
+[2026-01-05 11:15:34] DEBUG Executed query: SELECT * FROM comment WHERE postId = 40
+[2026-01-05 11:15:35] DEBUG Executed query: SELECT * FROM comment WHERE postId = 41
+[2026-01-05 11:15:35] DEBUG Executed query: SELECT * FROM comment WHERE postId = 42
+[2026-01-05 11:15:35] DEBUG Executed query: SELECT * FROM comment WHERE postId = 43
+[2026-01-05 11:15:35] DEBUG Executed query: SELECT * FROM comment WHERE postId = 44
+[2026-01-05 11:15:35] DEBUG Executed query: SELECT * FROM comment WHERE postId = 45
+[2026-01-05 11:15:35] DEBUG Executed query: SELECT * FROM comment WHERE postId = 46
+[2026-01-05 11:15:35] DEBUG Executed query: SELECT * FROM comment WHERE postId = 47
+[2026-01-05 11:15:35] DEBUG Executed query: SELECT * FROM comment WHERE postId = 48
+[2026-01-05 11:15:35] DEBUG Executed query: SELECT * FROM comment WHERE postId = 49
+[2026-01-05 11:15:35] DEBUG Executed query: SELECT * FROM comment WHERE postId = 50
+[2026-01-05 11:15:35] ERROR Slow query detected: GET /api/posts - 2845ms (threshold: 200ms)
+[2026-01-05 11:15:35] WARN N+1 query problem detected: 51 queries executed for single request
+[2026-01-05 11:15:35] INFO GET /api/posts?page=1&limit=50 200 - 2845ms
+[2026-01-05 11:15:38] INFO GET /api/profile 200 - 33ms
+[2026-01-05 11:15:40] INFO GET /api/notifications 200 - 39ms

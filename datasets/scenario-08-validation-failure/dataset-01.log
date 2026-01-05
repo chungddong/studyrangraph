@@ -1,0 +1,84 @@
+[2026-01-05 15:25:00] INFO Server is running on port 3333
+[2026-01-05 15:25:01] INFO Database connected successfully
+[2026-01-05 15:25:05] INFO GET /api/posts 200 - 44ms
+[2026-01-05 15:25:08] INFO POST /login 200 - 118ms
+[2026-01-05 15:25:10] INFO GET /api/profile 200 - 35ms
+[2026-01-05 15:25:12] INFO POST /api/posts 201 - 147ms
+[2026-01-05 15:25:15] INFO GET /api/notifications 200 - 39ms
+[2026-01-05 15:25:18] INFO POST /api/comments 201 - 88ms
+[2026-01-05 15:25:20] INFO GET /api/chat/rooms 200 - 46ms
+[2026-01-05 15:25:23] INFO PUT /api/posts/12 200 - 95ms
+[2026-01-05 15:25:25] INFO GET /api/emoticons/sets 200 - 37ms
+[2026-01-05 15:25:28] INFO DELETE /api/comments/45 200 - 70ms
+[2026-01-05 15:30:00] INFO Frontend deployment completed: version 2.5.0
+[2026-01-05 15:30:10] INFO POST /api/posts - User: user123
+[2026-01-05 15:30:10] ERROR POST /api/posts 400 - 15ms - 제목은 필수입니다
+[2026-01-05 15:30:12] INFO POST /api/posts - User: user456
+[2026-01-05 15:30:12] ERROR POST /api/posts 400 - 12ms - 제목은 필수입니다
+[2026-01-05 15:30:15] INFO POST /api/posts - User: user789
+[2026-01-05 15:30:15] ERROR POST /api/posts 400 - 14ms - 제목은 필수입니다
+[2026-01-05 15:30:18] INFO POST /api/comments - User: user321
+[2026-01-05 15:30:18] ERROR POST /api/comments 400 - 10ms - 댓글 내용은 필수입니다
+[2026-01-05 15:30:20] INFO POST /api/comments - User: user654
+[2026-01-05 15:30:20] ERROR POST /api/comments 400 - 11ms - 댓글 내용은 필수입니다
+[2026-01-05 15:30:22] INFO POST /api/posts - User: user987
+[2026-01-05 15:30:22] ERROR POST /api/posts 400 - 13ms - 카테고리는 필수입니다
+[2026-01-05 15:30:25] INFO POST /api/posts - User: user147
+[2026-01-05 15:30:25] ERROR POST /api/posts 400 - 14ms - 제목은 필수입니다
+[2026-01-05 15:30:28] INFO POST /api/comments - User: user258
+[2026-01-05 15:30:28] ERROR POST /api/comments 400 - 10ms - 댓글 내용은 필수입니다
+[2026-01-05 15:30:30] INFO POST /api/posts - User: user369
+[2026-01-05 15:30:30] ERROR POST /api/posts 400 - 12ms - 제목은 필수입니다
+[2026-01-05 15:30:33] INFO POST /api/posts - User: user741
+[2026-01-05 15:30:33] ERROR POST /api/posts 400 - 15ms - 제목은 필수입니다
+[2026-01-05 15:30:35] INFO POST /api/comments - User: user852
+[2026-01-05 15:30:35] ERROR POST /api/comments 400 - 11ms - 댓글 내용은 필수입니다
+[2026-01-05 15:30:38] INFO POST /api/posts - User: user963
+[2026-01-05 15:30:38] ERROR POST /api/posts 400 - 13ms - 제목은 필수입니다
+[2026-01-05 15:30:40] INFO POST /api/posts - User: user159
+[2026-01-05 15:30:40] ERROR POST /api/posts 400 - 14ms - 제목은 필수입니다
+[2026-01-05 15:30:43] INFO POST /api/comments - User: user357
+[2026-01-05 15:30:43] ERROR POST /api/comments 400 - 10ms - 댓글 내용은 필수입니다
+[2026-01-05 15:30:45] INFO POST /api/posts - User: user486
+[2026-01-05 15:30:45] ERROR POST /api/posts 400 - 12ms - 카테고리는 필수입니다
+[2026-01-05 15:30:48] INFO POST /api/posts - User: user591
+[2026-01-05 15:30:48] ERROR POST /api/posts 400 - 15ms - 제목은 필수입니다
+[2026-01-05 15:30:50] INFO POST /api/comments - User: user624
+[2026-01-05 15:30:50] ERROR POST /api/comments 400 - 11ms - 댓글 내용은 필수입니다
+[2026-01-05 15:30:53] INFO POST /api/posts - User: user735
+[2026-01-05 15:30:53] ERROR POST /api/posts 400 - 13ms - 제목은 필수입니다
+[2026-01-05 15:30:55] INFO POST /api/posts - User: user846
+[2026-01-05 15:30:55] ERROR POST /api/posts 400 - 14ms - 제목은 필수입니다
+[2026-01-05 15:30:58] INFO POST /api/comments - User: user951
+[2026-01-05 15:30:58] ERROR POST /api/comments 400 - 10ms - 댓글 내용은 필수입니다
+[2026-01-05 15:31:00] INFO POST /api/posts - User: user112
+[2026-01-05 15:31:00] ERROR POST /api/posts 400 - 12ms - 제목은 필수입니다
+[2026-01-05 15:31:03] INFO POST /api/posts - User: user223
+[2026-01-05 15:31:03] ERROR POST /api/posts 400 - 15ms - 제목은 필수입니다
+[2026-01-05 15:31:05] INFO POST /api/comments - User: user334
+[2026-01-05 15:31:05] ERROR POST /api/comments 400 - 11ms - 댓글 내용은 필수입니다
+[2026-01-05 15:31:08] INFO POST /api/posts - User: user445
+[2026-01-05 15:31:08] ERROR POST /api/posts 400 - 13ms - 제목은 필수입니다
+[2026-01-05 15:31:10] INFO POST /api/posts - User: user556
+[2026-01-05 15:31:10] ERROR POST /api/posts 400 - 14ms - 카테고리는 필수입니다
+[2026-01-05 15:31:13] INFO POST /api/comments - User: user667
+[2026-01-05 15:31:13] ERROR POST /api/comments 400 - 10ms - 댓글 내용은 필수입니다
+[2026-01-05 15:31:15] INFO POST /api/posts - User: user778
+[2026-01-05 15:31:15] ERROR POST /api/posts 400 - 12ms - 제목은 필수입니다
+[2026-01-05 15:31:18] INFO POST /api/posts - User: user889
+[2026-01-05 15:31:18] ERROR POST /api/posts 400 - 15ms - 제목은 필수입니다
+[2026-01-05 15:31:20] INFO POST /api/comments - User: user990
+[2026-01-05 15:31:20] ERROR POST /api/comments 400 - 11ms - 댓글 내용은 필수입니다
+[2026-01-05 15:35:00] WARN High rate of 400 errors: 125 validation failures in last 5 minutes
+[2026-01-05 15:35:00] ERROR Error pattern detected: "제목은 필수입니다" - 89 occurrences
+[2026-01-05 15:35:00] ERROR Error pattern detected: "댓글 내용은 필수입니다" - 28 occurrences
+[2026-01-05 15:35:00] ERROR Error pattern detected: "카테고리는 필수입니다" - 8 occurrences
+[2026-01-05 15:35:00] WARN Correlated with frontend deployment at 15:30:00
+[2026-01-05 15:35:00] CRITICAL Client-side validation bug detected in version 2.5.0
+[2026-01-05 15:35:00] WARN Recommend immediate frontend rollback to version 2.4.9
+[2026-01-05 15:35:05] INFO Alert sent to development team
+[2026-01-05 15:40:00] INFO Frontend rollback initiated: reverting to version 2.4.9
+[2026-01-05 15:42:00] INFO Frontend rollback completed successfully
+[2026-01-05 15:42:10] INFO POST /api/posts 201 - 148ms - User: user123
+[2026-01-05 15:42:15] INFO POST /api/comments 201 - 87ms - User: user456
+[2026-01-05 15:42:20] INFO 400 error rate normalized - issue resolved

@@ -1,0 +1,36 @@
+{
+  "scenario_id": "06",
+  "scenario_name": "권한 상승 시도",
+  "severity": "critical",
+  "category": "보안",
+  "description": "일반 사용자가 관리자 전용 API에 반복적으로 접근 시도",
+  "expected_findings": [
+    "동일 사용자의 반복적인 403 에러",
+    "관리자 전용 엔드포인트 접근 시도",
+    "타인 소유 리소스 수정/삭제 시도",
+    "짧은 시간 내 여러 권한 위반",
+    "체계적인 API 탐색 패턴"
+  ],
+  "recommended_actions": [
+    "즉시 해당 계정 정지",
+    "보안 로그 상세 분석",
+    "권한 검증 로직 점검",
+    "IP 주소 추적 및 차단",
+    "보안 팀 긴급 알림",
+    "계정 생성 이력 조사"
+  ],
+  "impact": {
+    "service_availability": "100%",
+    "affected_users": "없음 (차단됨)",
+    "data_loss_risk": "높음 (성공 시)",
+    "security_risk": "매우 높음"
+  },
+  "datasets": {
+    "dataset-01": {
+      "description": "권한 상승 시도",
+      "log_count": 85,
+      "time_span": "3분",
+      "issue_density": "높음"
+    }
+  }
+}

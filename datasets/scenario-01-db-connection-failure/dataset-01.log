@@ -1,0 +1,81 @@
+[2026-01-05 03:14:55] INFO Server is running on port 3333
+[2026-01-05 03:14:56] INFO Database connected successfully
+[2026-01-05 03:15:00] INFO GET /api/posts?page=1&limit=10 200 - 45ms
+[2026-01-05 03:15:02] INFO GET /api/health 200 - 5ms
+[2026-01-05 03:15:05] INFO POST /login 200 - 125ms
+[2026-01-05 03:15:08] INFO GET /api/profile 200 - 32ms
+[2026-01-05 03:15:10] INFO GET /api/posts/15 200 - 28ms
+[2026-01-05 03:15:12] INFO POST /api/comments 201 - 67ms
+[2026-01-05 03:15:15] INFO GET /api/notifications 200 - 41ms
+[2026-01-05 03:15:18] INFO GET /api/posts?page=2&limit=10 200 - 48ms
+[2026-01-05 03:15:20] INFO PUT /api/posts/23 200 - 89ms
+[2026-01-05 03:15:22] ERROR Database connection error: Error: connect ECONNREFUSED 127.0.0.1:3306
+[2026-01-05 03:15:22] ERROR   at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16)
+[2026-01-05 03:15:22] WARN Database connection failed, starting server without database
+[2026-01-05 03:15:22] WARN Database error details: { code: 'ECONNREFUSED', errno: 'ECONNREFUSED', syscall: 'connect', address: '127.0.0.1', port: 3306 }
+[2026-01-05 03:15:23] INFO Note: Registration and database-dependent features will not work
+[2026-01-05 03:15:25] INFO POST /register
+[2026-01-05 03:15:25] ERROR POST /register 500 - 12ms - Database connection unavailable
+[2026-01-05 03:15:26] INFO GET /api/posts
+[2026-01-05 03:15:26] ERROR GET /api/posts 500 - 8ms - Cannot read property 'find' of undefined
+[2026-01-05 03:15:27] INFO POST /login
+[2026-01-05 03:15:27] ERROR POST /login 500 - 10ms - Database connection unavailable
+[2026-01-05 03:15:28] INFO GET /api/posts/10
+[2026-01-05 03:15:28] ERROR GET /api/posts/10 500 - 7ms - Cannot read property 'findOne' of undefined
+[2026-01-05 03:15:30] INFO GET /api/profile
+[2026-01-05 03:15:30] ERROR GET /api/profile 500 - 7ms - Database connection unavailable
+[2026-01-05 03:15:32] INFO GET /api/notices
+[2026-01-05 03:15:32] ERROR GET /api/notices 500 - 9ms - Cannot read property 'findAndCount' of undefined
+[2026-01-05 03:15:33] INFO POST /api/posts
+[2026-01-05 03:15:33] ERROR POST /api/posts 500 - 11ms - Database connection unavailable
+[2026-01-05 03:15:35] ERROR Database connection error: Error: connect ECONNREFUSED 127.0.0.1:3306
+[2026-01-05 03:15:35] ERROR Retry connection failed: Connection refused
+[2026-01-05 03:15:36] INFO GET /api/categories/available
+[2026-01-05 03:15:36] ERROR GET /api/categories/available 500 - 8ms - Database connection unavailable
+[2026-01-05 03:15:38] INFO GET /api/chat/rooms
+[2026-01-05 03:15:38] ERROR GET /api/chat/rooms 500 - 6ms - Cannot read property 'find' of undefined
+[2026-01-05 03:15:40] INFO POST /api/comments
+[2026-01-05 03:15:40] ERROR POST /api/comments 500 - 9ms - Database connection unavailable
+[2026-01-05 03:15:42] INFO GET /api/notifications
+[2026-01-05 03:15:42] ERROR GET /api/notifications 500 - 7ms - Cannot read property 'find' of undefined
+[2026-01-05 03:15:45] ERROR Database connection error: Error: connect ECONNREFUSED 127.0.0.1:3306
+[2026-01-05 03:15:45] ERROR Connection pool exhausted
+[2026-01-05 03:15:46] INFO PUT /api/posts/8
+[2026-01-05 03:15:46] ERROR PUT /api/posts/8 500 - 10ms - Database connection unavailable
+[2026-01-05 03:15:48] INFO DELETE /api/posts/15
+[2026-01-05 03:15:48] ERROR DELETE /api/posts/15 500 - 8ms - Cannot read property 'findOne' of undefined
+[2026-01-05 03:15:50] INFO GET /api/profile/stats
+[2026-01-05 03:15:50] ERROR GET /api/profile/stats 500 - 7ms - Database connection unavailable
+[2026-01-05 03:15:52] INFO POST /api/posts/25/like
+[2026-01-05 03:15:52] ERROR POST /api/posts/25/like 500 - 9ms - Cannot read property 'findOne' of undefined
+[2026-01-05 03:15:55] ERROR Database connection error: Error: connect ECONNREFUSED 127.0.0.1:3306
+[2026-01-05 03:15:55] ERROR Auto-reconnection attempt 1 failed
+[2026-01-05 03:15:56] INFO GET /api/emoticons/sets
+[2026-01-05 03:15:56] ERROR GET /api/emoticons/sets 500 - 8ms - Database connection unavailable
+[2026-01-05 03:15:58] INFO POST /register
+[2026-01-05 03:15:58] ERROR POST /register 500 - 11ms - Database connection unavailable
+[2026-01-05 03:16:00] INFO GET /api/chat/messages/room-123
+[2026-01-05 03:16:00] ERROR GET /api/chat/messages/room-123 500 - 7ms - Cannot read property 'find' of undefined
+[2026-01-05 03:16:02] INFO PUT /api/comments/42
+[2026-01-05 03:16:02] ERROR PUT /api/comments/42 500 - 9ms - Database connection unavailable
+[2026-01-05 03:16:05] ERROR Database connection error: Error: connect ECONNREFUSED 127.0.0.1:3306
+[2026-01-05 03:16:05] ERROR Auto-reconnection attempt 2 failed
+[2026-01-05 03:16:06] INFO GET /api/posts?page=1&limit=20
+[2026-01-05 03:16:06] ERROR GET /api/posts 500 - 8ms - Cannot read property 'findAndCount' of undefined
+[2026-01-05 03:16:08] INFO POST /login
+[2026-01-05 03:16:08] ERROR POST /login 500 - 10ms - Database connection unavailable
+[2026-01-05 03:16:10] INFO GET /api/notices?page=1&limit=5
+[2026-01-05 03:16:10] ERROR GET /api/notices 500 - 9ms - Cannot read property 'findAndCount' of undefined
+[2026-01-05 03:16:12] INFO GET /api/profile
+[2026-01-05 03:16:12] ERROR GET /api/profile 500 - 7ms - Database connection unavailable
+[2026-01-05 03:16:15] ERROR Database connection error: Error: connect ECONNREFUSED 127.0.0.1:3306
+[2026-01-05 03:16:15] ERROR Auto-reconnection attempt 3 failed
+[2026-01-05 03:16:15] ERROR Maximum reconnection attempts reached
+[2026-01-05 03:16:16] INFO GET /api/health
+[2026-01-05 03:16:16] WARN GET /api/health 200 - 3ms - Server running but database disconnected
+[2026-01-05 03:16:18] INFO POST /api/posts
+[2026-01-05 03:16:18] ERROR POST /api/posts 500 - 11ms - Database connection unavailable
+[2026-01-05 03:16:20] INFO GET /api/db-test
+[2026-01-05 03:16:20] ERROR GET /api/db-test 500 - 2145ms - Connection timeout
+[2026-01-05 03:16:22] INFO GET /api/categories
+[2026-01-05 03:16:22] ERROR GET /api/categories 500 - 8ms - Database connection unavailable

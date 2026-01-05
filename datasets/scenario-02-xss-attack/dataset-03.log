@@ -1,0 +1,121 @@
+[2026-01-05 16:00:00] INFO Server is running on port 3333
+[2026-01-05 16:00:01] INFO Database connected successfully
+[2026-01-05 16:00:05] INFO GET /api/posts?page=1&limit=10 200 - 44ms
+[2026-01-05 16:00:08] INFO POST /login 200 - 120ms - User: user101
+[2026-01-05 16:00:10] INFO GET /api/profile 200 - 35ms - User: user101
+[2026-01-05 16:00:12] INFO GET /api/notifications 200 - 30ms - User: user101
+[2026-01-05 16:00:15] INFO POST /api/posts 201 - 149ms - User: user101
+[2026-01-05 16:00:18] INFO GET /api/posts/17 200 - 33ms
+[2026-01-05 16:00:20] INFO POST /api/comments 201 - 86ms - User: user101
+[2026-01-05 16:00:23] INFO GET /api/chat/rooms 200 - 45ms - User: user101
+[2026-01-05 16:00:25] INFO GET /api/health 200 - 5ms
+[2026-01-05 16:00:28] INFO PUT /api/posts/24 200 - 98ms - User: user101
+[2026-01-05 16:00:30] INFO GET /api/emoticons/sets 200 - 37ms
+[2026-01-05 16:00:33] INFO POST /login 200 - 118ms - User: hacker_alpha
+[2026-01-05 16:00:35] INFO GET /api/posts?page=2&limit=10 200 - 47ms
+[2026-01-05 16:00:38] INFO DELETE /api/comments/48 200 - 70ms - User: user101
+[2026-01-05 16:00:40] INFO POST /api/posts - User: hacker_alpha
+[2026-01-05 16:00:40] WARN Dangerous HTML content detected: <script>alert('XSS')</script>
+[2026-01-05 16:00:40] ERROR POST /api/posts 400 - 21ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 16:00:43] INFO GET /api/profile/stats 200 - 54ms - User: user101
+[2026-01-05 16:00:45] INFO POST /api/posts/10/like 200 - 43ms - User: user101
+[2026-01-05 16:00:48] INFO GET /api/notices?page=1&limit=5 200 - 41ms
+[2026-01-05 16:00:50] INFO GET /api/categories/available 200 - 28ms
+[2026-01-05 16:00:53] INFO POST /api/chat/message 201 - 74ms - User: user101
+[2026-01-05 16:00:55] INFO POST /login 200 - 122ms - User: user102
+[2026-01-05 16:00:58] INFO GET /api/posts?category=tech 200 - 55ms
+[2026-01-05 16:01:00] INFO PUT /api/comments/89 200 - 90ms - User: user102
+[2026-01-05 16:01:03] INFO GET /api/posts/32 200 - 36ms
+[2026-01-05 16:01:05] INFO POST /register 201 - 232ms - User: user103
+[2026-01-05 16:01:08] INFO GET /api/chat/messages/room-789 200 - 62ms - User: user101
+[2026-01-05 16:01:10] INFO GET /api/posts?page=3&limit=10 200 - 49ms
+[2026-01-05 16:01:13] INFO PUT /api/profile/password 200 - 181ms - User: user102
+[2026-01-05 16:01:15] INFO GET /api/notifications 200 - 39ms - User: user103
+[2026-01-05 16:01:18] INFO POST /api/posts 201 - 150ms - User: user103
+[2026-01-05 16:01:20] INFO GET /api/profile 200 - 34ms - User: user102
+[2026-01-05 16:01:23] INFO DELETE /api/posts/16 200 - 71ms - User: user103
+[2026-01-05 16:01:25] INFO GET /api/health 200 - 5ms
+[2026-01-05 16:01:28] INFO POST /api/posts/22/like 200 - 44ms - User: user102
+[2026-01-05 16:01:30] INFO POST /login 200 - 115ms - User: attacker_beta
+[2026-01-05 16:01:33] INFO GET /api/emoticons/sets 200 - 36ms
+[2026-01-05 16:01:35] INFO POST /api/comments 201 - 88ms - User: user101
+[2026-01-05 16:01:38] INFO GET /api/posts?page=4&limit=10 200 - 50ms
+[2026-01-05 16:01:40] INFO PUT /api/posts/8 200 - 95ms - User: user103
+[2026-01-05 16:01:43] INFO GET /api/profile 200 - 33ms - User: user101
+[2026-01-05 16:01:45] INFO POST /api/comments - User: attacker_beta
+[2026-01-05 16:01:45] WARN Dangerous HTML content detected: <img src=x onerror=alert(1)>
+[2026-01-05 16:01:45] ERROR POST /api/comments 400 - 20ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 16:01:48] INFO POST /login 200 - 119ms - User: user104
+[2026-01-05 16:01:50] INFO GET /api/notifications 200 - 40ms - User: user104
+[2026-01-05 16:01:53] INFO GET /api/chat/rooms 200 - 46ms - User: user104
+[2026-01-05 16:01:55] INFO POST /api/chat/message 201 - 75ms - User: user102
+[2026-01-05 16:01:58] INFO GET /api/posts/29 200 - 35ms
+[2026-01-05 16:02:00] INFO DELETE /api/comments/64 200 - 69ms - User: user103
+[2026-01-05 16:02:03] INFO GET /api/profile/stats 200 - 52ms - User: user104
+[2026-01-05 16:02:05] INFO POST /api/posts 201 - 148ms - User: user104
+[2026-01-05 16:02:08] INFO GET /api/categories/available 200 - 29ms
+[2026-01-05 16:02:10] INFO GET /api/posts?category=news 200 - 54ms
+[2026-01-05 16:02:13] INFO PUT /api/comments/83 200 - 91ms - User: user101
+[2026-01-05 16:02:15] INFO GET /api/health 200 - 5ms
+[2026-01-05 16:02:18] INFO POST /api/posts/13/like 200 - 43ms - User: user102
+[2026-01-05 16:02:20] INFO POST /api/posts - User: hacker_alpha
+[2026-01-05 16:02:20] WARN Dangerous HTML content detected: <svg onload=alert(1)>
+[2026-01-05 16:02:20] ERROR POST /api/posts 400 - 19ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 16:02:23] INFO GET /api/notices 200 - 41ms
+[2026-01-05 16:02:25] INFO GET /api/emoticons/sets 200 - 37ms
+[2026-01-05 16:02:28] INFO POST /api/comments 201 - 87ms - User: user103
+[2026-01-05 16:02:30] INFO GET /api/posts?page=1&limit=20 200 - 67ms
+[2026-01-05 16:02:33] INFO PUT /api/profile/password 200 - 183ms - User: user101
+[2026-01-05 16:02:35] INFO GET /api/chat/messages/room-234 200 - 60ms - User: user102
+[2026-01-05 16:02:38] INFO POST /register 201 - 229ms - User: user105
+[2026-01-05 16:02:40] INFO GET /api/posts/41 200 - 34ms
+[2026-01-05 16:02:43] INFO DELETE /api/posts/20 200 - 72ms - User: user104
+[2026-01-05 16:02:45] INFO GET /api/health 200 - 5ms
+[2026-01-05 16:02:48] INFO POST /login 200 - 117ms - User: hacker_gamma
+[2026-01-05 16:02:50] INFO POST /api/posts/12/like 200 - 44ms - User: user105
+[2026-01-05 16:02:53] INFO GET /api/notifications 200 - 38ms - User: user105
+[2026-01-05 16:02:55] INFO POST /api/posts 201 - 151ms - User: user101
+[2026-01-05 16:02:58] INFO GET /api/profile 200 - 33ms - User: user104
+[2026-01-05 16:03:00] INFO GET /api/chat/rooms 200 - 45ms - User: user103
+[2026-01-05 16:03:03] INFO POST /api/chat/message 201 - 76ms - User: user104
+[2026-01-05 16:03:05] INFO POST /api/posts - User: hacker_gamma
+[2026-01-05 16:03:05] WARN Dangerous HTML content detected: javascript:void(0)
+[2026-01-05 16:03:05] ERROR POST /api/posts 400 - 18ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 16:03:08] INFO GET /api/posts?category=tech 200 - 53ms
+[2026-01-05 16:03:10] INFO PUT /api/posts/25 200 - 97ms - User: user105
+[2026-01-05 16:03:13] INFO GET /api/posts/7 200 - 32ms
+[2026-01-05 16:03:15] INFO DELETE /api/comments/92 200 - 68ms - User: user102
+[2026-01-05 16:03:18] INFO GET /api/profile/stats 200 - 51ms - User: user103
+[2026-01-05 16:03:20] INFO POST /api/posts 201 - 149ms - User: user102
+[2026-01-05 16:03:23] INFO GET /api/categories/available 200 - 28ms
+[2026-01-05 16:03:25] INFO GET /api/health 200 - 5ms
+[2026-01-05 16:03:28] INFO POST /api/comments - User: attacker_beta
+[2026-01-05 16:03:28] WARN Dangerous HTML content detected: <iframe src=javascript:alert(1)>
+[2026-01-05 16:03:28] ERROR POST /api/comments 400 - 21ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 16:03:30] INFO POST /api/posts/30/like 200 - 42ms - User: user105
+[2026-01-05 16:03:33] INFO GET /api/notices 200 - 40ms
+[2026-01-05 16:03:35] INFO GET /api/emoticons/sets 200 - 36ms
+[2026-01-05 16:03:38] INFO POST /api/comments 201 - 88ms - User: user104
+[2026-01-05 16:03:40] INFO GET /api/posts?page=2&limit=20 200 - 68ms
+[2026-01-05 16:03:43] INFO POST /login 200 - 121ms - User: user106
+[2026-01-05 16:03:45] INFO PUT /api/profile/password 200 - 179ms - User: user103
+[2026-01-05 16:03:48] INFO GET /api/chat/messages/room-567 200 - 61ms - User: user101
+[2026-01-05 16:03:50] INFO POST /register 201 - 233ms - User: user107
+[2026-01-05 16:03:53] INFO GET /api/posts/43 200 - 35ms
+[2026-01-05 16:03:55] INFO DELETE /api/posts/21 200 - 73ms - User: user105
+[2026-01-05 16:03:58] INFO GET /api/health 200 - 5ms
+[2026-01-05 16:04:00] INFO POST /api/posts/14/like 200 - 44ms - User: user106
+[2026-01-05 16:04:03] INFO GET /api/notifications 200 - 39ms - User: user106
+[2026-01-05 16:04:05] INFO POST /api/posts 201 - 152ms - User: user106
+[2026-01-05 16:04:08] INFO GET /api/profile 200 - 34ms - User: user105
+[2026-01-05 16:04:10] INFO POST /api/posts - User: hacker_alpha
+[2026-01-05 16:04:10] WARN Dangerous HTML content detected: <body onload=alert('XSS')>
+[2026-01-05 16:04:10] ERROR POST /api/posts 400 - 22ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 16:04:13] INFO GET /api/chat/rooms 200 - 46ms - User: user104
+[2026-01-05 16:04:15] INFO POST /api/chat/message 201 - 75ms - User: user105
+[2026-01-05 16:04:18] INFO GET /api/posts?category=news 200 - 54ms
+[2026-01-05 16:04:20] INFO PUT /api/posts/26 200 - 96ms - User: user106
+[2026-01-05 16:04:23] INFO GET /api/posts/9 200 - 33ms
+[2026-01-05 16:04:25] INFO DELETE /api/comments/95 200 - 69ms - User: user103
+[2026-01-05 16:04:28] INFO GET /api/profile/stats 200 - 52ms - User: user104
+[2026-01-05 16:04:30] WARN Security alert: Multiple users (hacker_alpha, attacker_beta, hacker_gamma) attempting XSS attacks

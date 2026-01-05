@@ -1,0 +1,35 @@
+{
+  "scenario_id": "05",
+  "scenario_name": "JWT 토큰 만료 급증",
+  "severity": "medium",
+  "category": "애플리케이션",
+  "description": "특정 시간대에 많은 사용자의 JWT 토큰이 만료되어 인증 실패가 급증",
+  "expected_findings": [
+    "특정 시간대 401 에러 급증",
+    "다양한 사용자의 토큰 만료",
+    "재로그인 패턴 증가",
+    "여러 엔드포인트에서 동시 발생",
+    "토큰 검증 실패 메시지 반복"
+  ],
+  "recommended_actions": [
+    "JWT 토큰 만료 시간 연장 검토 (현재 1시간 → 4시간)",
+    "Refresh Token 메커니즘 도입",
+    "자동 토큰 갱신 로직 구현",
+    "사용자에게 만료 전 알림",
+    "세션 관리 전략 재검토"
+  ],
+  "impact": {
+    "service_availability": "100%",
+    "affected_users": "대다수 (150+ 사용자)",
+    "data_loss_risk": "없음",
+    "user_experience": "불편 (갑작스러운 로그아웃)"
+  },
+  "datasets": {
+    "dataset-01": {
+      "description": "토큰 만료 급증",
+      "log_count": 180,
+      "time_span": "5분",
+      "issue_density": "높음"
+    }
+  }
+}

