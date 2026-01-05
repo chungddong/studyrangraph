@@ -128,5 +128,6 @@
 
 ## 11) 다음 설계 작업(코드 작성 전)
 - `NormalizedEvent` / `Finding` / `AnalysisResult` 스키마 필드 확정
+  - 스키마 문서는 별도 파일: [docs/schemas.md](docs/schemas.md)
 - 프롬프트/리포트 템플릿 파일 구조 확정(`prompts/**`)
 - 규칙 기반 탐지 룰 목록화(심각도 기준 포함)
