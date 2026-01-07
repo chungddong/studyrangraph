@@ -1,0 +1,6 @@
+langchain>=0.1.0
+langgraph>=0.0.40
+langchain-anthropic>=0.1.0
+langchain-google-genai>=1.0.0
+chainlit>=1.0.0
+python-dotenv>=1.0.0
